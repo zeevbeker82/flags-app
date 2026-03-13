@@ -62,6 +62,26 @@ export default function HomePage() {
         </Link>
       </div>
 
+      {/* כדורגל */}
+      <Link
+        href="/football"
+        className="block rounded-3xl p-6 text-center shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 overflow-hidden relative"
+        style={{ background: 'linear-gradient(135deg, #14532d, #166534, #15803d)' }}
+      >
+        <div className="absolute inset-0 opacity-10 pointer-events-none">
+          <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-white" />
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20 rounded-full border-2 border-white" />
+        </div>
+        <div className="relative flex items-center gap-4">
+          <div className="text-5xl">⚽</div>
+          <div className="text-right flex-1">
+            <h2 className="text-2xl font-black text-white">כדורגל! ⚽</h2>
+            <p className="text-green-200 text-sm mt-0.5">30 מועדונים · 25 כוכבים · ישראל ועולם</p>
+          </div>
+          <div className="text-3xl opacity-60">🏆</div>
+        </div>
+      </Link>
+
       {/* יבשות */}
       <div>
         <h2 className="text-2xl font-bold text-gray-700 mb-4">יבשות</h2>

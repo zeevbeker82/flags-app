@@ -8,6 +8,7 @@ const navItems = [
   { href: '/quiz', label: 'תרגול', icon: '🎯' },
   { href: '/memory', label: 'משחק זיכרון', icon: '🧠' },
   { href: '/speed', label: 'מבחן מהיר', icon: '⚡' },
+  { href: '/football', label: 'כדורגל', icon: '⚽' },
   { href: '/progress', label: 'התקדמות', icon: '📊' },
   { href: '/achievements', label: 'הישגים', icon: '🏆' },
 ];
