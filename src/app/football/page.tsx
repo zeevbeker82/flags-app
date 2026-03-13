@@ -114,13 +114,43 @@ function ClubLogo({ club, size = 130 }: { club: Club; size?: number }) {
 
 // Player card
 function PlayerCard({ player, size = 130 }: { player: Player; size?: number }) {
+  const [imgErr, setImgErr] = useState(false);
   const lastName = player.nameEnglish.split(' ').slice(-1)[0];
+
+  if (player.photoUrl && !imgErr) {
+    return (
+      <div
+        className="rounded-2xl overflow-hidden shadow-inner select-none relative"
+        style={{ width: size, height: size, border: '3px solid rgba(255,255,255,0.3)' }}
+      >
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={player.photoUrl}
+          alt={player.nameEnglish}
+          width={size}
+          height={size}
+          style={{ objectFit: 'cover', objectPosition: 'top center', width: size, height: size }}
+          onError={() => setImgErr(true)}
+          loading="eager"
+        />
+        <div
+          className="absolute bottom-0 left-0 right-0 text-center font-black text-white py-1"
+          style={{
+            background: 'linear-gradient(to top, rgba(0,0,0,0.7), transparent)',
+            fontSize: size * 0.1,
+          }}
+        >
+          {player.flagEmoji}
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div
       className="rounded-2xl flex flex-col items-center justify-center shadow-inner relative overflow-hidden select-none"
       style={{ width: size, height: size, background: `linear-gradient(160deg, ${player.jerseyColor}, ${player.jerseySecondaryColor})`, border: '3px solid rgba(255,255,255,0.3)' }}
     >
-      {/* jersey stripes */}
       <div className="absolute inset-0 opacity-15 flex">
         {[0,1,2,3].map(i => <div key={i} className="flex-1 bg-white" style={{ margin: '0 2px' }} />)}
       </div>

@@ -23,6 +23,7 @@ export interface Player {
   difficulty: FootballDifficulty;
   jerseyColor: string;
   jerseySecondaryColor: string;
+  photoUrl?: string;
 }
 
 export const clubs: Club[] = [
@@ -289,6 +290,7 @@ export const players: Player[] = [
     flagEmoji: '🇦🇷',
     difficulty: 'easy',
     jerseyColor: '#75AADB', jerseySecondaryColor: '#FFFFFF',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Lionel_Messi_NE_Revolution_Inter_Miami_7.9.25-178.jpg',
   },
   {
     id: 'ronaldo',
@@ -299,6 +301,7 @@ export const players: Player[] = [
     flagEmoji: '🇵🇹',
     difficulty: 'easy',
     jerseyColor: '#006600', jerseySecondaryColor: '#CC0000',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Cristiano_Ronaldo_2275_%28cropped%29.jpg',
   },
   {
     id: 'mbappe',
@@ -309,6 +312,7 @@ export const players: Player[] = [
     flagEmoji: '🇫🇷',
     difficulty: 'easy',
     jerseyColor: '#003189', jerseySecondaryColor: '#CC0000',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Picture_with_Mbapp%C3%A9_%28cropped%29.jpg',
   },
   {
     id: 'haaland',
@@ -319,6 +323,7 @@ export const players: Player[] = [
     flagEmoji: '🇳🇴',
     difficulty: 'easy',
     jerseyColor: '#6CABDD', jerseySecondaryColor: '#1C2C5B',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/71/Erling_Haaland_June_2025.jpg',
   },
   {
     id: 'neymar',
@@ -329,6 +334,7 @@ export const players: Player[] = [
     flagEmoji: '🇧🇷',
     difficulty: 'easy',
     jerseyColor: '#009C3B', jerseySecondaryColor: '#FFDF00',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/b/bb/Neymar_Jr._with_Al_Hilal%2C_3_October_2023_-_03_%28cropped%29.jpg',
   },
   // כוכבים - בינוני
   {
@@ -340,6 +346,7 @@ export const players: Player[] = [
     flagEmoji: '🇪🇬',
     difficulty: 'medium',
     jerseyColor: '#C8102E', jerseySecondaryColor: '#00B2A9',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4a/Mohamed_Salah_2018.jpg',
   },
   {
     id: 'de-bruyne',
@@ -350,6 +357,7 @@ export const players: Player[] = [
     flagEmoji: '🇧🇪',
     difficulty: 'medium',
     jerseyColor: '#6CABDD', jerseySecondaryColor: '#000000',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/97/Kevin_De_Bruyne-December_2021.png',
   },
   {
     id: 'bellingham',
@@ -360,6 +368,7 @@ export const players: Player[] = [
     flagEmoji: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
     difficulty: 'medium',
     jerseyColor: '#FFFFFF', jerseySecondaryColor: '#00529F',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Jude_Bellingham_-_240422_190551-2_%28cropped%29.jpg',
   },
   {
     id: 'vinicius',
@@ -370,6 +379,7 @@ export const players: Player[] = [
     flagEmoji: '🇧🇷',
     difficulty: 'medium',
     jerseyColor: '#FFFFFF', jerseySecondaryColor: '#00529F',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/c/c6/2023_05_06_Final_de_la_Copa_del_Rey_-_52879242230_%28cropped%29.jpg',
   },
   {
     id: 'modric',
@@ -380,6 +390,7 @@ export const players: Player[] = [
     flagEmoji: '🇭🇷',
     difficulty: 'medium',
     jerseyColor: '#CC0000', jerseySecondaryColor: '#FFFFFF',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Ofrenda_de_la_Liga_y_la_Champions-57-L.Mill%C3%A1n_%2852109310843%29_%28Luka_Modri%C4%87%29.jpg',
   },
   {
     id: 'lewandowski',
@@ -390,6 +401,7 @@ export const players: Player[] = [
     flagEmoji: '🇵🇱',
     difficulty: 'medium',
     jerseyColor: '#A50044', jerseySecondaryColor: '#004D98',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/26/2019147183134_2019-05-27_Fussball_1.FC_Kaiserslautern_vs_FC_Bayern_M%C3%BCnchen_-_Sven_-_1D_X_MK_II_-_0228_-_B70I8527_%28cropped%29.jpg',
   },
   {
     id: 'benzema',
@@ -400,6 +412,7 @@ export const players: Player[] = [
     flagEmoji: '🇫🇷',
     difficulty: 'medium',
     jerseyColor: '#FFF200', jerseySecondaryColor: '#000000',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Karim_Benzema_Pick.jpg',
   },
   {
     id: 'kane',
@@ -410,6 +423,7 @@ export const players: Player[] = [
     flagEmoji: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
     difficulty: 'medium',
     jerseyColor: '#DC052D', jerseySecondaryColor: '#0066B2',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Harry_Kane_on_October_10%2C_2023.jpg',
   },
   // אגדות - קשה
   {
@@ -421,6 +435,7 @@ export const players: Player[] = [
     flagEmoji: '🇧🇷',
     difficulty: 'hard',
     jerseyColor: '#009C3B', jerseySecondaryColor: '#FFDF00',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Ronaldinho_in_2019.jpg',
   },
   {
     id: 'zidane',
@@ -431,6 +446,7 @@ export const players: Player[] = [
     flagEmoji: '🇫🇷',
     difficulty: 'hard',
     jerseyColor: '#003189', jerseySecondaryColor: '#FFFFFF',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg',
   },
   {
     id: 'beckham',
@@ -441,6 +457,7 @@ export const players: Player[] = [
     flagEmoji: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
     difficulty: 'hard',
     jerseyColor: '#DA291C', jerseySecondaryColor: '#FBE122',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/73/David_Beckham_UNICEF_%28cropped2%29.jpg',
   },
   {
     id: 'r9',
@@ -451,6 +468,7 @@ export const players: Player[] = [
     flagEmoji: '🇧🇷',
     difficulty: 'hard',
     jerseyColor: '#009C3B', jerseySecondaryColor: '#FFDF00',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Ronaldo_Lu%C3%ADs_Naz%C3%A1rio_de_Lima_2019_%283x4_cropped%29.jpg',
   },
   {
     id: 'henry',
@@ -461,6 +479,7 @@ export const players: Player[] = [
     flagEmoji: '🇫🇷',
     difficulty: 'hard',
     jerseyColor: '#EF0107', jerseySecondaryColor: '#063672',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Thierry_Henry_%2851649035951%29_%28cropped%29.jpg',
   },
   {
     id: 'ramos',
@@ -471,6 +490,7 @@ export const players: Player[] = [
     flagEmoji: '🇪🇸',
     difficulty: 'hard',
     jerseyColor: '#FFFFFF', jerseySecondaryColor: '#00529F',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Sergio_Ramos_Interview_2021_%28cropped%29.jpg',
   },
   {
     id: 'ibrahimovic',
@@ -481,6 +501,7 @@ export const players: Player[] = [
     flagEmoji: '🇸🇪',
     difficulty: 'hard',
     jerseyColor: '#006AA7', jerseySecondaryColor: '#FECC02',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/09/Zlatan_Ibrahimovi%C4%87_June_2018.jpg',
   },
   // שחקנים ישראלים
   {
@@ -492,6 +513,7 @@ export const players: Player[] = [
     flagEmoji: '🇮🇱',
     difficulty: 'easy',
     jerseyColor: '#0038B8', jerseySecondaryColor: '#FFFFFF',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/55/EranZeahviCelebrating.jpg',
   },
   {
     id: 'solomon',
@@ -502,6 +524,7 @@ export const players: Player[] = [
     flagEmoji: '🇮🇱',
     difficulty: 'medium',
     jerseyColor: '#132257', jerseySecondaryColor: '#FFFFFF',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Manor_Solomon_-_Press_Conference_-_Israel_Football_Association_-_26_May_2022_%28cropped%29.jpg',
   },
   {
     id: 'dabbur',
@@ -512,6 +535,7 @@ export const players: Player[] = [
     flagEmoji: '🇮🇱',
     difficulty: 'hard',
     jerseyColor: '#1763B5', jerseySecondaryColor: '#FFFFFF',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Fanclubs-Weihnachtsfeier_2018_39.jpg',
   },
   {
     id: 'benayoun',
@@ -522,6 +546,7 @@ export const players: Player[] = [
     flagEmoji: '🇮🇱',
     difficulty: 'hard',
     jerseyColor: '#C8102E', jerseySecondaryColor: '#00B2A9',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Benayoun_Haifa_%282a%29.jpg',
   },
   {
     id: 'ohana',
@@ -532,5 +557,6 @@ export const players: Player[] = [
     flagEmoji: '🇮🇱',
     difficulty: 'hard',
     jerseyColor: '#F8D000', jerseySecondaryColor: '#000000',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Eli_Ohana%2C_1991%2C_taken_by_Moti_Kikion.jpg',
   },
 ];
