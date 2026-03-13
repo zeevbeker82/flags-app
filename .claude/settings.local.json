@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)",
+      "Bash(cmd.exe /c \"node --version && npm --version\")",
+      "Bash(powershell.exe -Command \"node --version; npm --version; npx --version\")",
+      "Bash(\"/mnt/c/Program Files/nodejs/node.exe\" --version)",
+      "Bash(\"/mnt/c/Program Files/nodejs/npm.cmd\" --version)",
+      "Bash(powershell.exe -Command \"& ''C:\\\\Program Files\\\\nodejs\\\\node.exe'' --version\")",
+      "Bash(powershell.exe -Command \"& ''C:\\\\Program Files\\\\nodejs\\\\npx.cmd'' create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias ''@/*'' --yes\")",
+      "Bash(powershell.exe -Command '$env:PATH = \"\"C:\\\\Program Files\\\\nodejs;\"\" + $env:PATH; $env:PATH')",
+      "Bash(WORKDIR=\"C:\\\\Users\\\\zeev_\\\\OneDrive\\\\שולחן העבודה\\\\זאב\\\\קלוד קוד\\\\לימוד דגלים\")",
+      "Bash(powershell.exe -Command '$env:PATH = \"\"C:\\\\Program Files\\\\nodejs;\"\" + $env:PATH; Set-Location \"\"C:\\\\Users\\\\zeev_\\\\OneDrive\\\\שולחן העבודה\\\\זאב\\\\קלוד קוד\\\\לימוד דגלים\"\"; npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"\"@/*\"\" --yes 2>&1')",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command '$env:PATH = \"\"C:\\\\Program Files\\\\nodejs;\"\" + $env:PATH; Set-Location \"\"C:\\\\Users\\\\zeev_\\\\OneDrive\\\\שולחן העבודה\\\\זאב\\\\קלוד קוד\\\\לימוד דגלים\"\"; & \"\"C:\\\\Program Files\\\\nodejs\\\\npx.cmd\"\" create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"\"@/*\"\" --yes 2>&1')",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command '$env:PATH = \"\"C:\\\\Program Files\\\\nodejs;\"\" + $env:PATH; Set-Location \"\"C:\\\\Users\\\\zeev_\\\\AppData\\\\Local\\\\Temp\"\"; & \"\"C:\\\\Program Files\\\\nodejs\\\\npx.cmd\"\" create-next-app@latest flags-app --typescript --tailwind --eslint --app --src-dir --import-alias \"\"@/*\"\" --yes 2>&1')",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command 'Copy-Item \"\"C:\\\\Users\\\\zeev_\\\\AppData\\\\Local\\\\Temp\\\\flags-app\\\\*\"\" -Destination \"\"C:\\\\Users\\\\zeev_\\\\OneDrive\\\\שולחן העבודה\\\\זאב\\\\קלוד קוד\\\\לימוד דגלים\\\\\"\" -Recurse -Force; Write-Host \"\"Done\"\"')",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command 'ls \"\"C:\\\\Users\\\\zeev_\\\\OneDrive\\\\שולחן העבודה\\\\זאב\\\\קלוד קוד\\\\לימוד דגלים\\\\\"\" | Select-Object Name')",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command ':*)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command '$env:PATH = \"\"C:\\\\Program Files\\\\nodejs;\"\" + $env:PATH; Set-Location \"\"C:\\\\Users\\\\zeev_\\\\OneDrive\\\\שולחן העבודה\\\\זאב\\\\קלוד קוד\\\\לימוד דגלים\"\"; npm run build 2>&1')",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command 'New-Item -ItemType Directory -Force -Path \"\"C:\\\\Users\\\\zeev_\\\\OneDrive\\\\שולחן העבודה\\\\זאב\\\\קלוד קוד\\\\לימוד דגלים\\\\.claude\"\" | Out-Null; Write-Host \"\"Done\"\"')",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command '$env:PATH = \"\"C:\\\\Program Files\\\\nodejs;\"\" + $env:PATH; Set-Location \"\"C:\\\\Users\\\\zeev_\\\\OneDrive\\\\שולחן העבודה\\\\זאב\\\\קלוד קוד\\\\לימוד דגלים\"\"; Start-Process -FilePath \"\"C:\\\\Program Files\\\\nodejs\\\\node.exe\"\" -ArgumentList \"\"node_modules\\\\next\\\\dist\\\\bin\\\\next\"\",\"\"dev\"\" -NoNewWindow -PassThru')",
+      "Bash(powershell.exe -Command \"Get-NetTCPConnection -LocalPort 3000 -ErrorAction SilentlyContinue | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force -ErrorAction SilentlyContinue }; Write-Host ''Killed port 3000''\")",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command '$env:PATH = \"\"C:\\\\Program Files\\\\nodejs;\"\" + $env:PATH; Set-Location \"\"C:\\\\Users\\\\zeev_\\\\OneDrive\\\\שולחן העבודה\\\\זאב\\\\קלוד קוד\\\\לימוד דגלים\"\"; npx tsc --noEmit 2>&1')",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command 'Get-Process | Where-Object { $_.ProcessName -like \"\"*node*\"\" } | Stop-Process -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 1; Write-Host \"\"Done\"\"')"
+    ]
+  }
+}
