@@ -107,7 +107,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Juventus',
     nameHebrew: 'יובנטוס',
     country: 'Italy', countryHebrew: 'איטליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Juventus_FC_2017_icon_%28black%29.svg/200px-Juventus_FC_2017_icon_%28black%29.svg.png',
+    logoUrl: 'https://a.espncdn.com/i/teamlogos/soccer/500/111.png',
     difficulty: 'easy', primaryColor: '#000000', secondaryColor: '#FFFFFF',
   },
   {
@@ -115,7 +115,7 @@ export const clubs: Club[] = [
     nameEnglish: 'AC Milan',
     nameHebrew: 'מילאן',
     country: 'Italy', countryHebrew: 'איטליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/200px-Logo_of_AC_Milan.svg.png',
+    logoUrl: 'https://a.espncdn.com/i/teamlogos/soccer/500/103.png',
     difficulty: 'easy', primaryColor: '#FB090B', secondaryColor: '#000000',
   },
   {
@@ -123,7 +123,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Inter Milan',
     nameHebrew: 'אינטר מילאן',
     country: 'Italy', countryHebrew: 'איטליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/200px-FC_Internazionale_Milano_2021.svg.png',
+    logoUrl: 'https://a.espncdn.com/i/teamlogos/soccer/500/110.png',
     difficulty: 'medium', primaryColor: '#010E80', secondaryColor: '#000000',
   },
   {
@@ -139,7 +139,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Napoli',
     nameHebrew: 'נאפולי',
     country: 'Italy', countryHebrew: 'איטליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SSC_Napoli_Badge.svg/200px-SSC_Napoli_Badge.svg.png',
+    logoUrl: 'https://a.espncdn.com/i/teamlogos/soccer/500/114.png',
     difficulty: 'medium', primaryColor: '#0067B1', secondaryColor: '#FFFFFF',
   },
   // גרמניה
@@ -148,7 +148,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Bayern Munich',
     nameHebrew: 'בייארן מינכן',
     country: 'Germany', countryHebrew: 'גרמניה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/FC_Bayern_M%C3%BCnchen_logo_%282002%E2%80%932017%29.svg/200px-FC_Bayern_M%C3%BCnchen_logo_%282002%E2%80%932017%29.svg.png',
+    logoUrl: 'https://a.espncdn.com/i/teamlogos/soccer/500/132.png',
     difficulty: 'easy', primaryColor: '#DC052D', secondaryColor: '#0066B2',
   },
   {
@@ -156,7 +156,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Borussia Dortmund',
     nameHebrew: 'בורוסיה דורטמונד',
     country: 'Germany', countryHebrew: 'גרמניה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/200px-Borussia_Dortmund_logo.svg.png',
+    logoUrl: 'https://a.espncdn.com/i/teamlogos/soccer/500/124.png',
     difficulty: 'medium', primaryColor: '#FDE100', secondaryColor: '#000000',
   },
   // צרפת
@@ -241,7 +241,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Boca Juniors',
     nameHebrew: "בוקה ג'וניורס",
     country: 'Argentina', countryHebrew: 'ארגנטינה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors.svg/200px-Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors.svg.png',
+    logoUrl: 'https://a.espncdn.com/i/teamlogos/soccer/500/5.png',
     difficulty: 'medium', primaryColor: '#003082', secondaryColor: '#FFCC00',
   },
   {
@@ -249,7 +249,7 @@ export const clubs: Club[] = [
     nameEnglish: 'River Plate',
     nameHebrew: 'ריבר פלייט',
     country: 'Argentina', countryHebrew: 'ארגנטינה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/River_Plate_crest.svg/200px-River_Plate_crest.svg.png',
+    logoUrl: 'https://a.espncdn.com/i/teamlogos/soccer/500/16.png',
     difficulty: 'hard', primaryColor: '#CC0000', secondaryColor: '#FFFFFF',
   },
   {
@@ -257,7 +257,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Flamengo',
     nameHebrew: 'פלאמנגו',
     country: 'Brazil', countryHebrew: 'ברזיל',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Flamengo_escudo.svg/200px-Flamengo_escudo.svg.png',
+    logoUrl: 'https://a.espncdn.com/i/teamlogos/soccer/500/819.png',
     difficulty: 'hard', primaryColor: '#CC0000', secondaryColor: '#000000',
   },
   // סקוטלנד
