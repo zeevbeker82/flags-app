@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
         hostname: 'a.espncdn.com',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'r2.thesportsdb.com',
+        pathname: '/**',
+      },
     ],
   },
 };
