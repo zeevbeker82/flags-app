@@ -33,7 +33,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Real Madrid',
     nameHebrew: 'ריאל מדריד',
     country: 'Spain', countryHebrew: 'ספרד',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/200px-Real_Madrid_CF.svg.png',
     difficulty: 'easy', primaryColor: '#FFFFFF', secondaryColor: '#00529F',
   },
   {
@@ -41,7 +41,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Barcelona',
     nameHebrew: 'ברצלונה',
     country: 'Spain', countryHebrew: 'ספרד',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/200px-FC_Barcelona_%28crest%29.svg.png',
     difficulty: 'easy', primaryColor: '#A50044', secondaryColor: '#004D98',
   },
   {
@@ -49,7 +49,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Atletico Madrid',
     nameHebrew: 'אתלטיקו מדריד',
     country: 'Spain', countryHebrew: 'ספרד',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/200px-Atletico_Madrid_2017_logo.svg.png',
     difficulty: 'medium', primaryColor: '#CB3524', secondaryColor: '#FFFFFF',
   },
   // אנגליה
@@ -58,7 +58,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Manchester United',
     nameHebrew: "מנצ'סטר יונייטד",
     country: 'England', countryHebrew: 'אנגליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/200px-Manchester_United_FC_crest.svg.png',
     difficulty: 'easy', primaryColor: '#DA291C', secondaryColor: '#FBE122',
   },
   {
@@ -66,7 +66,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Manchester City',
     nameHebrew: "מנצ'סטר סיטי",
     country: 'England', countryHebrew: 'אנגליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/200px-Manchester_City_FC_badge.svg.png',
     difficulty: 'easy', primaryColor: '#6CABDD', secondaryColor: '#1C2C5B',
   },
   {
@@ -74,7 +74,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Liverpool',
     nameHebrew: 'ליברפול',
     country: 'England', countryHebrew: 'אנגליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/200px-Liverpool_FC.svg.png',
     difficulty: 'easy', primaryColor: '#C8102E', secondaryColor: '#00B2A9',
   },
   {
@@ -82,7 +82,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Chelsea',
     nameHebrew: "צ'לסי",
     country: 'England', countryHebrew: 'אנגליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/200px-Chelsea_FC.svg.png',
     difficulty: 'medium', primaryColor: '#034694', secondaryColor: '#DBA111',
   },
   {
@@ -90,7 +90,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Arsenal',
     nameHebrew: 'ארסנל',
     country: 'England', countryHebrew: 'אנגליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/200px-Arsenal_FC.svg.png',
     difficulty: 'medium', primaryColor: '#EF0107', secondaryColor: '#063672',
   },
   {
@@ -98,7 +98,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Tottenham',
     nameHebrew: 'טוטנהאם',
     country: 'England', countryHebrew: 'אנגליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/200px-Tottenham_Hotspur.svg.png',
     difficulty: 'medium', primaryColor: '#132257', secondaryColor: '#FFFFFF',
   },
   // איטליה
@@ -107,7 +107,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Juventus',
     nameHebrew: 'יובנטוס',
     country: 'Italy', countryHebrew: 'איטליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_icon_%28black%29.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Juventus_FC_2017_icon_%28black%29.svg/200px-Juventus_FC_2017_icon_%28black%29.svg.png',
     difficulty: 'easy', primaryColor: '#000000', secondaryColor: '#FFFFFF',
   },
   {
@@ -115,7 +115,7 @@ export const clubs: Club[] = [
     nameEnglish: 'AC Milan',
     nameHebrew: 'מילאן',
     country: 'Italy', countryHebrew: 'איטליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/200px-Logo_of_AC_Milan.svg.png',
     difficulty: 'easy', primaryColor: '#FB090B', secondaryColor: '#000000',
   },
   {
@@ -123,7 +123,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Inter Milan',
     nameHebrew: 'אינטר מילאן',
     country: 'Italy', countryHebrew: 'איטליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/200px-FC_Internazionale_Milano_2021.svg.png',
     difficulty: 'medium', primaryColor: '#010E80', secondaryColor: '#000000',
   },
   {
@@ -131,7 +131,7 @@ export const clubs: Club[] = [
     nameEnglish: 'AS Roma',
     nameHebrew: 'אס רומא',
     country: 'Italy', countryHebrew: 'איטליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/AS_Roma_logo_%282017%29.svg/200px-AS_Roma_logo_%282017%29.svg.png',
     difficulty: 'hard', primaryColor: '#8B0000', secondaryColor: '#F5A800',
   },
   {
@@ -139,7 +139,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Napoli',
     nameHebrew: 'נאפולי',
     country: 'Italy', countryHebrew: 'איטליה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/SSC_Napoli_Badge.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SSC_Napoli_Badge.svg/200px-SSC_Napoli_Badge.svg.png',
     difficulty: 'medium', primaryColor: '#0067B1', secondaryColor: '#FFFFFF',
   },
   // גרמניה
@@ -148,7 +148,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Bayern Munich',
     nameHebrew: 'בייארן מינכן',
     country: 'Germany', countryHebrew: 'גרמניה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/FC_Bayern_M%C3%BCnchen_logo_%282002%E2%80%932017%29.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/FC_Bayern_M%C3%BCnchen_logo_%282002%E2%80%932017%29.svg/200px-FC_Bayern_M%C3%BCnchen_logo_%282002%E2%80%932017%29.svg.png',
     difficulty: 'easy', primaryColor: '#DC052D', secondaryColor: '#0066B2',
   },
   {
@@ -156,7 +156,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Borussia Dortmund',
     nameHebrew: 'בורוסיה דורטמונד',
     country: 'Germany', countryHebrew: 'גרמניה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/200px-Borussia_Dortmund_logo.svg.png',
     difficulty: 'medium', primaryColor: '#FDE100', secondaryColor: '#000000',
   },
   // צרפת
@@ -165,7 +165,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Paris Saint-Germain',
     nameHebrew: "פריס סן ז'רמן",
     country: 'France', countryHebrew: 'צרפת',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/200px-Paris_Saint-Germain_F.C..svg.png',
     difficulty: 'easy', primaryColor: '#004170', secondaryColor: '#DA291C',
   },
   // פורטוגל
@@ -174,7 +174,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Benfica',
     nameHebrew: 'בנפיקה',
     country: 'Portugal', countryHebrew: 'פורטוגל',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/8/8c/SL_Benfica_logo.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/SL_Benfica_logo.svg/200px-SL_Benfica_logo.svg.png',
     difficulty: 'hard', primaryColor: '#CC0000', secondaryColor: '#FFFFFF',
   },
   {
@@ -182,7 +182,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Porto',
     nameHebrew: 'פורטו',
     country: 'Portugal', countryHebrew: 'פורטוגל',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/3/30/FC_Porto.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/30/FC_Porto.svg/200px-FC_Porto.svg.png',
     difficulty: 'hard', primaryColor: '#004E8F', secondaryColor: '#FFFFFF',
   },
   // הולנד
@@ -191,7 +191,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Ajax',
     nameHebrew: 'אייאקס',
     country: 'Netherlands', countryHebrew: 'הולנד',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/7/79/Ajax_Amsterdam.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Ajax_Amsterdam.svg/200px-Ajax_Amsterdam.svg.png',
     difficulty: 'medium', primaryColor: '#C8102E', secondaryColor: '#FFFFFF',
   },
   // ישראל
@@ -200,7 +200,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Maccabi Tel Aviv',
     nameHebrew: 'מכבי תל אביב',
     country: 'Israel', countryHebrew: 'ישראל',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/9/98/Maccabi_Tel_Aviv_logo.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Maccabi_Tel_Aviv_logo.svg/200px-Maccabi_Tel_Aviv_logo.svg.png',
     difficulty: 'easy', primaryColor: '#F8D000', secondaryColor: '#0072CE',
   },
   {
@@ -208,7 +208,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Maccabi Haifa',
     nameHebrew: 'מכבי חיפה',
     country: 'Israel', countryHebrew: 'ישראל',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/7/7e/Maccabi_Haifa_logo.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Maccabi_Haifa_logo.svg/200px-Maccabi_Haifa_logo.svg.png',
     difficulty: 'easy', primaryColor: '#00853F', secondaryColor: '#F8D000',
   },
   {
@@ -216,7 +216,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Hapoel Tel Aviv',
     nameHebrew: 'הפועל תל אביב',
     country: 'Israel', countryHebrew: 'ישראל',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/6/6c/Hapoel_TelAviv.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Hapoel_TelAviv.svg/200px-Hapoel_TelAviv.svg.png',
     difficulty: 'medium', primaryColor: '#CC0000', secondaryColor: '#FFFFFF',
   },
   {
@@ -224,7 +224,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Hapoel Beer Sheva',
     nameHebrew: 'הפועל באר שבע',
     country: 'Israel', countryHebrew: 'ישראל',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/7/74/Hapoel_Beer_Sheva_logo.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Hapoel_Beer_Sheva_logo.svg/200px-Hapoel_Beer_Sheva_logo.svg.png',
     difficulty: 'medium', primaryColor: '#EE1C25', secondaryColor: '#FFFFFF',
   },
   {
@@ -232,7 +232,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Beitar Jerusalem',
     nameHebrew: 'בית"ר ירושלים',
     country: 'Israel', countryHebrew: 'ישראל',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/3/34/Beitar_Jerusalem.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Beitar_Jerusalem.svg/200px-Beitar_Jerusalem.svg.png',
     difficulty: 'medium', primaryColor: '#F8D000', secondaryColor: '#000000',
   },
   // דרום אמריקה
@@ -241,7 +241,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Boca Juniors',
     nameHebrew: "בוקה ג'וניורס",
     country: 'Argentina', countryHebrew: 'ארגנטינה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors.svg/200px-Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors.svg.png',
     difficulty: 'medium', primaryColor: '#003082', secondaryColor: '#FFCC00',
   },
   {
@@ -249,7 +249,7 @@ export const clubs: Club[] = [
     nameEnglish: 'River Plate',
     nameHebrew: 'ריבר פלייט',
     country: 'Argentina', countryHebrew: 'ארגנטינה',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/c/c1/River_Plate_crest.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/River_Plate_crest.svg/200px-River_Plate_crest.svg.png',
     difficulty: 'hard', primaryColor: '#CC0000', secondaryColor: '#FFFFFF',
   },
   {
@@ -257,7 +257,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Flamengo',
     nameHebrew: 'פלאמנגו',
     country: 'Brazil', countryHebrew: 'ברזיל',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Flamengo_escudo.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Flamengo_escudo.svg/200px-Flamengo_escudo.svg.png',
     difficulty: 'hard', primaryColor: '#CC0000', secondaryColor: '#000000',
   },
   // סקוטלנד
@@ -266,7 +266,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Celtic',
     nameHebrew: 'סלטיק',
     country: 'Scotland', countryHebrew: 'סקוטלנד',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/8/8e/Celtic_FC.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Celtic_FC.svg/200px-Celtic_FC.svg.png',
     difficulty: 'hard', primaryColor: '#168B35', secondaryColor: '#FFFFFF',
   },
   {
@@ -274,7 +274,7 @@ export const clubs: Club[] = [
     nameEnglish: 'Rangers',
     nameHebrew: "ריינג'רס",
     country: 'Scotland', countryHebrew: 'סקוטלנד',
-    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/f/f2/Rangers_FC_crest.svg',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Rangers_FC_crest.svg/200px-Rangers_FC_crest.svg.png',
     difficulty: 'hard', primaryColor: '#1B458F', secondaryColor: '#FFFFFF',
   },
 ];

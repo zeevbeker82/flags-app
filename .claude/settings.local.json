@@ -22,7 +22,18 @@
       "Bash(powershell.exe -ExecutionPolicy Bypass -Command '$env:PATH = \"\"C:\\\\Program Files\\\\nodejs;\"\" + $env:PATH; Set-Location \"\"C:\\\\Users\\\\zeev_\\\\OneDrive\\\\שולחן העבודה\\\\זאב\\\\קלוד קוד\\\\לימוד דגלים\"\"; Start-Process -FilePath \"\"C:\\\\Program Files\\\\nodejs\\\\node.exe\"\" -ArgumentList \"\"node_modules\\\\next\\\\dist\\\\bin\\\\next\"\",\"\"dev\"\" -NoNewWindow -PassThru')",
       "Bash(powershell.exe -Command \"Get-NetTCPConnection -LocalPort 3000 -ErrorAction SilentlyContinue | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force -ErrorAction SilentlyContinue }; Write-Host ''Killed port 3000''\")",
       "Bash(powershell.exe -ExecutionPolicy Bypass -Command '$env:PATH = \"\"C:\\\\Program Files\\\\nodejs;\"\" + $env:PATH; Set-Location \"\"C:\\\\Users\\\\zeev_\\\\OneDrive\\\\שולחן העבודה\\\\זאב\\\\קלוד קוד\\\\לימוד דגלים\"\"; npx tsc --noEmit 2>&1')",
-      "Bash(powershell.exe -ExecutionPolicy Bypass -Command 'Get-Process | Where-Object { $_.ProcessName -like \"\"*node*\"\" } | Stop-Process -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 1; Write-Host \"\"Done\"\"')"
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command 'Get-Process | Where-Object { $_.ProcessName -like \"\"*node*\"\" } | Stop-Process -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 1; Write-Host \"\"Done\"\"')",
+      "WebFetch(domain:en.wikipedia.org)",
+      "Bash(curl -s \"https://en.wikipedia.org/w/api.php?action=query&titles=Lionel_Messi&prop=pageimages&format=json&piprop=original\" -A \"Mozilla/5.0 \\(compatible; research bot\\)\")",
+      "Bash(node --version)",
+      "Bash(node -e \"const c=[];process.stdin.on\\(''data'',d=>c.push\\(d\\)\\);process.stdin.on\\(''end'',\\(\\)=>{const d=JSON.parse\\(c.join\\(''''\\)\\);const p=d.query.pages;for\\(const id in p\\){const o=p[id].original;console.log\\(p[id].title, o?o.source:''NO IMAGE''\\);}}\\)\")",
+      "Bash(__NEW_LINE_2a6b42d4366f4e67__ curl -s \"https://en.wikipedia.org/w/api.php?action=query&titles=Vinicius_J%C3%BAnior&prop=pageimages&format=json&piprop=original&redirects=1\" -A \"Mozilla/5.0\")",
+      "Bash(node -e \"const c=[];process.stdin.on\\(''data'',d=>c.push\\(d\\)\\);process.stdin.on\\(''end'',\\(\\)=>{const d=JSON.parse\\(c.join\\(''''\\)\\);const p=d.query.pages;for\\(const id in p\\){const o=p[id].original;console.log\\(JSON.stringify\\(p[id]\\)\\);}}\\)\")",
+      "Bash(node -e \"const c=[];process.stdin.on\\(''data'',d=>c.push\\(d\\)\\);process.stdin.on\\(''end'',\\(\\)=>{const d=JSON.parse\\(c.join\\(''''\\)\\);const p=d.query.pages;for\\(const id in p\\){const ii=p[id].imageinfo;console.log\\(ii?ii[0].url:''no url''\\);}}\\)\")",
+      "Bash(node -e \"const c=[];process.stdin.on\\(''data'',d=>c.push\\(d\\)\\);process.stdin.on\\(''end'',\\(\\)=>{const d=JSON.parse\\(c.join\\(''''\\)\\);const results=d.query.search;results.forEach\\(r=>console.log\\(r.title\\)\\);}\\);\")",
+      "Bash(node -e \"const c=[];process.stdin.on\\(''data'',d=>c.push\\(d\\)\\);process.stdin.on\\(''end'',\\(\\)=>{const d=JSON.parse\\(c.join\\(''''\\)\\);const p=d.query.pages;for\\(const id in p\\){const ii=p[id].imageinfo;console.log\\(''Kylian_Mbappe_2017:'', ii?ii[0].url:''no url''\\);}}\\)\")",
+      "Bash(__NEW_LINE_55d8c9b051ca4774__ curl -s \"https://commons.wikimedia.org/w/api.php?action=query&titles=File:Kylian_Mbappe_celebrating_-_March_2018.jpg&prop=imageinfo&format=json&iiprop=url\" -A \"Mozilla/5.0\")",
+      "Bash(node -e \"const c=[];process.stdin.on\\(''data'',d=>c.push\\(d\\)\\);process.stdin.on\\(''end'',\\(\\)=>{const d=JSON.parse\\(c.join\\(''''\\)\\);const p=d.query.pages;for\\(const id in p\\){const ii=p[id].imageinfo;console.log\\(''celebrating:'', ii?ii[0].url:''no url''\\);}}\\)\")"
     ]
   }
 }

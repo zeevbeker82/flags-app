@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { clubs, players } from '@/data/football';
 import type { Club, Player } from '@/data/football';
 
@@ -99,15 +100,14 @@ function ClubLogo({ club, size = 130 }: { club: Club; size?: number }) {
     );
   }
   return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
+    <Image
       src={club.logoUrl}
       alt={club.nameEnglish}
       width={size}
       height={size}
       style={{ objectFit: 'contain', width: size, height: size }}
       onError={() => setErr(true)}
-      loading="eager"
+      priority
     />
   );
 }
@@ -123,15 +123,14 @@ function PlayerCard({ player, size = 130 }: { player: Player; size?: number }) {
         className="rounded-2xl overflow-hidden shadow-inner select-none relative"
         style={{ width: size, height: size, border: '3px solid rgba(255,255,255,0.3)' }}
       >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={player.photoUrl}
+        <Image
+          src={player.photoUrl!}
           alt={player.nameEnglish}
           width={size}
           height={size}
           style={{ objectFit: 'cover', objectPosition: 'top center', width: size, height: size }}
           onError={() => setImgErr(true)}
-          loading="eager"
+          priority
         />
         <div
           className="absolute bottom-0 left-0 right-0 text-center font-black text-white py-1"
