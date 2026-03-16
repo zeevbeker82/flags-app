@@ -9,6 +9,7 @@ export interface Country {
   flagUrl: string;
   population?: number;
   funFact?: string;
+  language?: string;
 }
 
 export interface Progress {
@@ -20,6 +21,10 @@ export interface Progress {
   streakDays: number;
   lastPlayed: string;
   starredCountries: string[];
+  collectedCountries: string[];
+  collectedPlayers: string[];
+  collectedClubs: string[];
+  soundEnabled: boolean;
 }
 
 export interface Achievement {

@@ -75,5 +75,43 @@ export function useProgress() {
     save(defaultProgress);
   }, [save]);
 
-  return { progress, loaded, addPoints, markLearned, toggleStarred, unlockAchievement, resetProgress, save };
+  const collectCountry = useCallback((countryId: string) => {
+    setProgress(prev => {
+      const collected = prev.collectedCountries || [];
+      if (collected.includes(countryId)) return prev;
+      const updated = { ...prev, collectedCountries: [...collected, countryId] };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+      return updated;
+    });
+  }, []);
+
+  const collectPlayer = useCallback((playerId: string) => {
+    setProgress(prev => {
+      const collected = prev.collectedPlayers || [];
+      if (collected.includes(playerId)) return prev;
+      const updated = { ...prev, collectedPlayers: [...collected, playerId] };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+      return updated;
+    });
+  }, []);
+
+  const collectClub = useCallback((clubId: string) => {
+    setProgress(prev => {
+      const collected = prev.collectedClubs || [];
+      if (collected.includes(clubId)) return prev;
+      const updated = { ...prev, collectedClubs: [...collected, clubId] };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+      return updated;
+    });
+  }, []);
+
+  const setSoundEnabled = useCallback((enabled: boolean) => {
+    setProgress(prev => {
+      const updated = { ...prev, soundEnabled: enabled };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+      return updated;
+    });
+  }, []);
+
+  return { progress, loaded, addPoints, markLearned, toggleStarred, unlockAchievement, resetProgress, save, collectCountry, collectPlayer, collectClub, setSoundEnabled };
 }

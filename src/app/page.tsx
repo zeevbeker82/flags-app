@@ -82,6 +82,37 @@ export default function HomePage() {
         </div>
       </Link>
 
+      {/* חדש! */}
+      <div>
+        <h2 className="text-xl font-bold text-gray-700 mb-3">🆕 סקשנים חדשים</h2>
+        <div className="grid grid-cols-2 gap-3">
+          <Link href="/sticker-album"
+            className="bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-2xl p-5 text-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+            <div className="text-3xl mb-1">📘</div>
+            <h3 className="font-bold">אלבום מדבקות</h3>
+            <p className="text-blue-100 text-xs mt-0.5">אסוף דגלים, שחקנים ומועדונים</p>
+          </Link>
+          <Link href="/world-map"
+            className="bg-gradient-to-br from-teal-500 to-cyan-600 text-white rounded-2xl p-5 text-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+            <div className="text-3xl mb-1">🗺️</div>
+            <h3 className="font-bold">מפת העולם</h3>
+            <p className="text-teal-100 text-xs mt-0.5">גלה מדינות לפי יבשת</p>
+          </Link>
+          <Link href="/animals"
+            className="bg-gradient-to-br from-green-500 to-emerald-600 text-white rounded-2xl p-5 text-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+            <div className="text-3xl mb-1">🐾</div>
+            <h3 className="font-bold">חיות לאומיות</h3>
+            <p className="text-green-100 text-xs mt-0.5">נמרים, פנדות ועוד</p>
+          </Link>
+          <Link href="/israel"
+            className="bg-gradient-to-br from-blue-700 to-blue-900 text-white rounded-2xl p-5 text-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+            <div className="text-3xl mb-1">🇮🇱</div>
+            <h3 className="font-bold">ישראל שלנו</h3>
+            <p className="text-blue-200 text-xs mt-0.5">ערים, אתרים וגאוגרפיה</p>
+          </Link>
+        </div>
+      </div>
+
       {/* יבשות */}
       <div>
         <h2 className="text-2xl font-bold text-gray-700 mb-4">יבשות</h2>

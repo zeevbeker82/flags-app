@@ -4,6 +4,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { clubs, players } from '@/data/football';
 import type { Club, Player } from '@/data/football';
+import { useProgress } from '@/hooks/useProgress';
+import { useSound } from '@/hooks/useSound';
 
 type View = 'landing' | 'setup' | 'quiz' | 'results';
 type Category = 'clubs' | 'players';
@@ -184,6 +186,8 @@ export default function FootballPage() {
   const [showGoal, setShowGoal] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
   const [timeLeft, setTimeLeft] = useState(15);
+  const { progress, collectPlayer, collectClub } = useProgress();
+  const { playCorrect, playWrong } = useSound(progress.soundEnabled !== false);
 
   const handleAnswerRef = useRef<(id: string | null) => void>(() => {});
 
@@ -231,8 +235,15 @@ export default function FootballPage() {
       setShowGoal(true);
       setShowConfetti(true);
       setTimeout(() => { setShowGoal(false); setShowConfetti(false); }, 2200);
+      playCorrect();
+      if (isClub(currentQ.item)) {
+        collectClub(currentQ.item.id);
+      } else {
+        collectPlayer(currentQ.item.id);
+      }
     } else {
       setStreak(0);
+      playWrong();
     }
 
     setTimeout(() => {

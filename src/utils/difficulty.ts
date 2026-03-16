@@ -135,3 +135,36 @@ export function buildQuestion(
   const options = shuffle([country, ...distractors]);
   return { country, options, type };
 }
+
+// ─── שאלת בירה — מראה דגל, מנחש בירה ────────────────────────────────────────
+
+export function buildCapitalQuestion(
+  continent: Continent | 'all',
+  difficulty: Difficulty,
+): { country: Country; options: Country[] } {
+  // סנן רק מדינות שיש להן בירה ייחודית (לא ריקה)
+  const fullPool = getQuestionPool(continent, difficulty).filter(c => c.capital && c.capital.trim() !== '');
+  const pool = fullPool.length >= 4 ? fullPool : getQuestionPool('all', difficulty).filter(c => c.capital && c.capital.trim() !== '');
+  const country = pool[Math.floor(Math.random() * pool.length)];
+  const distractors = pickDistractors(country, difficulty).filter(c => c.capital && c.capital !== country.capital);
+  // אם אין מספיק distractors, קח מהpool הכולל
+  const allOthers = pool.filter(c => c.id !== country.id && c.capital && c.capital !== country.capital);
+  const finalDistractors = distractors.length >= 3 ? distractors.slice(0, 3) : shuffle(allOthers).slice(0, 3);
+  const options = shuffle([country, ...finalDistractors]);
+  return { country, options };
+}
+
+// ─── שאלת שפה — מראה דגל, מנחש שפה ─────────────────────────────────────────
+
+export function buildLanguageQuestion(
+  continent: Continent | 'all',
+  difficulty: Difficulty,
+): { country: Country; options: Country[] } {
+  const fullPool = getQuestionPool(continent, difficulty).filter(c => c.language && c.language.trim() !== '');
+  const pool = fullPool.length >= 4 ? fullPool : countries.filter(c => c.language && c.language.trim() !== '');
+  const country = pool[Math.floor(Math.random() * pool.length)];
+  // מנסה להביא distractors עם שפות שונות
+  const allOthers = pool.filter(c => c.id !== country.id && c.language !== country.language);
+  const options = shuffle([country, ...shuffle(allOthers).slice(0, 3)]);
+  return { country, options };
+}

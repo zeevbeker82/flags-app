@@ -7,6 +7,7 @@ import QuizCard from '@/components/QuizCard';
 import { Country, QuizQuestion } from '@/types';
 import { shuffle, pickRandomExcluding } from '@/utils/shuffle';
 import { calcSpeedPoints } from '@/utils/scoring';
+import { useSound } from '@/hooks/useSound';
 
 const TOTAL_QUESTIONS = 10;
 const TIME_PER_QUESTION = 10;
@@ -30,6 +31,7 @@ export default function SpeedPage() {
   const { addPoints, unlockAchievement } = useProgress();
   const { score, streak, correct, recordAnswer, addScore, reset } = useScore();
   const [bestScore, setBestScore] = useState(0);
+  const { playCorrect, playWrong } = useSound(true);
 
   useEffect(() => {
     try {
@@ -52,7 +54,8 @@ export default function SpeedPage() {
   const handleAnswer = useCallback((isCorrect: boolean) => {
     recordAnswer(isCorrect);
     const pts = calcSpeedPoints(isCorrect, timeLeft, isCorrect ? streak + 1 : 0);
-    if (isCorrect) { addScore(pts); addPoints(pts); }
+    if (isCorrect) { addScore(pts); addPoints(pts); playCorrect(); }
+    else { playWrong(); }
     const newAnswers = [...answers, isCorrect];
     setAnswers(newAnswers);
 

@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import { useProgress } from '@/hooks/useProgress';
 import { countries, continentInfo } from '@/data/countries';
 import { getLevelInfo, LEVELS, getContinentStars } from '@/utils/scoring';
@@ -60,6 +61,33 @@ export default function ProgressPage() {
             <p className="text-xs text-gray-500">{stat.label}</p>
           </div>
         ))}
+      </div>
+
+      {/* אלבום מדבקות */}
+      <div className="bg-white rounded-2xl shadow p-5">
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="font-bold text-gray-700 text-lg">📘 אלבום מדבקות</h2>
+          <Link href="/sticker-album" className="text-blue-500 text-sm font-bold hover:underline">לאלבום →</Link>
+        </div>
+        <div className="grid grid-cols-3 gap-3">
+          {[
+            { label: 'דגלים', collected: (progress.collectedCountries || []).length, total: 193, color: '#3b82f6', emoji: '🌍' },
+            { label: 'שחקנים', collected: (progress.collectedPlayers || []).length, total: 84, color: '#f59e0b', emoji: '⭐' },
+            { label: 'מועדונים', collected: (progress.collectedClubs || []).length, total: 54, color: '#22c55e', emoji: '🏟️' },
+          ].map(item => {
+            const pct = item.total > 0 ? Math.round((item.collected / item.total) * 100) : 0;
+            return (
+              <div key={item.label} className="text-center">
+                <div className="text-2xl mb-1">{item.emoji}</div>
+                <div className="text-lg font-black" style={{ color: item.color }}>{item.collected}</div>
+                <div className="text-xs text-gray-400">/{item.total}</div>
+                <div className="h-1.5 bg-gray-100 rounded-full mt-1 overflow-hidden">
+                  <div className="h-full rounded-full" style={{ width: `${pct}%`, backgroundColor: item.color }} />
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
 
       {/* התקדמות כוללת */}

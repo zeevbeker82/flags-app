@@ -48,4 +48,8 @@ export const defaultProgress: Progress = {
   streakDays: 0,
   lastPlayed: '',
   starredCountries: [],
+  collectedCountries: [],
+  collectedPlayers: [],
+  collectedClubs: [],
+  soundEnabled: true,
 };
