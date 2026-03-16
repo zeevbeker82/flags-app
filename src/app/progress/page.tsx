@@ -72,7 +72,7 @@ export default function ProgressPage() {
         <div className="grid grid-cols-3 gap-3">
           {[
             { label: 'דגלים', collected: (progress.collectedCountries || []).length, total: 193, color: '#3b82f6', emoji: '🌍' },
-            { label: 'שחקנים', collected: (progress.collectedPlayers || []).length, total: 84, color: '#f59e0b', emoji: '⭐' },
+            { label: 'שחקנים', collected: (progress.collectedPlayers || []).length, total: 107, color: '#f59e0b', emoji: '⭐' },
             { label: 'מועדונים', collected: (progress.collectedClubs || []).length, total: 54, color: '#22c55e', emoji: '🏟️' },
           ].map(item => {
             const pct = item.total > 0 ? Math.round((item.collected / item.total) * 100) : 0;
