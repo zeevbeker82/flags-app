@@ -176,9 +176,17 @@ export default function AnimalsPage() {
                   key={opt.countryId}
                   onClick={() => !isAnswered && handleAnswer(opt.countryId)}
                   disabled={isAnswered}
-                  className={`${bg} ${text} ${opacity} rounded-2xl p-4 font-bold text-center transition-all shadow-lg active:scale-95`}
+                  className={`${bg} ${text} ${opacity} rounded-2xl p-3 font-bold text-center transition-all shadow-lg active:scale-95 overflow-hidden`}
                 >
-                  <div className="text-3xl mb-1">{opt.emoji}</div>
+                  <div className="relative w-full h-24 rounded-xl overflow-hidden mb-2">
+                    <Image
+                      src={opt.photoUrl}
+                      alt={opt.animalEnglish}
+                      fill
+                      style={{ objectFit: 'cover' }}
+                      sizes="(max-width: 768px) 45vw, 200px"
+                    />
+                  </div>
                   <div className="text-sm leading-tight">{opt.animal}</div>
                   {isCorrectOpt && isAnswered && <div className="text-xs opacity-80 mt-1">{opt.animalEnglish}</div>}
                 </button>
