@@ -591,7 +591,7 @@ export default function FootballPage() {
           >
             <div className="text-5xl mb-2 group-hover:animate-bounce">⭐</div>
             <h2 className="text-2xl font-black text-yellow-700">כוכבים ⭐</h2>
-            <p className="text-gray-500 mt-1 text-sm">זהה 25 שחקנים מפורסמים</p>
+            <p className="text-gray-500 mt-1 text-sm">זהה 132 שחקנים מפורסמים</p>
             <div className="flex gap-1 justify-center mt-3 flex-wrap">
               {['מסי 🇦🇷', 'רונאלדו 🇵🇹', 'מבאפה 🇫🇷', 'זהבי 🇮🇱', 'עוד...'].map(c => (
                 <span key={c} className="bg-yellow-100 text-yellow-700 text-xs px-2 py-0.5 rounded-full font-semibold">{c}</span>
@@ -604,7 +604,7 @@ export default function FootballPage() {
         <div className="grid grid-cols-3 gap-3 mt-6">
           {[
             { emoji: '🏟️', count: '30', label: 'מועדונים' },
-            { emoji: '⭐', count: '25', label: 'שחקנים' },
+            { emoji: '⭐', count: '132', label: 'שחקנים' },
             { emoji: '🌍', count: '12', label: 'ליגות' },
           ].map(s => (
             <div key={s.label} className="bg-white/15 rounded-2xl p-3 text-center">
