@@ -76,7 +76,7 @@ export default function HomePage() {
           <div className="text-5xl">⚽</div>
           <div className="text-right flex-1">
             <h2 className="text-2xl font-black text-white">כדורגל! ⚽</h2>
-            <p className="text-green-200 text-sm mt-0.5">30 מועדונים · 25 כוכבים · ישראל ועולם</p>
+            <p className="text-green-200 text-sm mt-0.5">24 מועדונים · 132 כוכבים · ישראל ועולם</p>
           </div>
           <div className="text-3xl opacity-60">🏆</div>
         </div>
@@ -109,6 +109,18 @@ export default function HomePage() {
             <div className="text-3xl mb-1">🇮🇱</div>
             <h3 className="font-bold">ישראל שלנו</h3>
             <p className="text-blue-200 text-xs mt-0.5">ערים, אתרים וגאוגרפיה</p>
+          </Link>
+          <Link href="/wonders"
+            className="bg-gradient-to-br from-purple-600 to-indigo-700 text-white rounded-2xl p-5 text-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+            <div className="text-3xl mb-1">🏛️</div>
+            <h3 className="font-bold">פלאות העולם</h3>
+            <p className="text-purple-100 text-xs mt-0.5">20 אנדרטאות מדהימות</p>
+          </Link>
+          <Link href="/foods"
+            className="bg-gradient-to-br from-orange-500 to-red-600 text-white rounded-2xl p-5 text-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+            <div className="text-3xl mb-1">🍕</div>
+            <h3 className="font-bold">אוכל מהעולם</h3>
+            <p className="text-orange-100 text-xs mt-0.5">30 מאכלים ממדינות שונות</p>
           </Link>
         </div>
       </div>
