@@ -76,7 +76,7 @@ export default function HomePage() {
           <div className="text-5xl">⚽</div>
           <div className="text-right flex-1">
             <h2 className="text-2xl font-black text-white">כדורגל! ⚽</h2>
-            <p className="text-green-200 text-sm mt-0.5">24 מועדונים · 132 כוכבים · ישראל ועולם</p>
+            <p className="text-green-200 text-sm mt-0.5">24 מועדונים · 119 כוכבים · ישראל ועולם</p>
           </div>
           <div className="text-3xl opacity-60">🏆</div>
         </div>

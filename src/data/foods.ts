@@ -43,7 +43,7 @@ export const worldFoods: WorldFood[] = [
     country: 'USA',
     countryHebrew: 'ארצות הברית',
     countryId: 'us',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Grilled_hamburger.jpg/800px-Grilled_hamburger.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Hamburger_with_grilled_onions%2C_Jack%27s_restaurant%2C_Fort_Lauderdale%2C_Florida.jpg/800px-Hamburger_with_grilled_onions%2C_Jack%27s_restaurant%2C_Fort_Lauderdale%2C_Florida.jpg',
     difficulty: 'easy',
     funFact: 'ההמבורגר קיבל את שמו מהעיר המבורג שבגרמניה, אך הפך לאחד המאכלים הפופולריים ביותר בארצות הברית. האמריקאים אוכלים כ-50 מיליארד המבורגרים בשנה!'
   },
@@ -54,7 +54,7 @@ export const worldFoods: WorldFood[] = [
     country: 'France',
     countryHebrew: 'צרפת',
     countryId: 'fr',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/01_Croissants_Luc_Viatour.jpg/800px-01_Croissants_Luc_Viatour.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Croissants_au_beurre_%2818953292873%29.jpg/800px-Croissants_au_beurre_%2818953292873%29.jpg',
     difficulty: 'easy',
     funFact: 'הקרואסון צורתו המיוחדת דמויית הסהר קיבלה השראה מדגל האימפריה העות\'מאנית. בצרפת אוכלים קרואסון טרי כל בוקר עם קפה!'
   },
@@ -76,7 +76,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Italy',
     countryHebrew: 'איטליה',
     countryId: 'it',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Pasta_salad_04.jpg/800px-Pasta_salad_04.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Party_food_dish_5_pasta_salad.jpg/800px-Party_food_dish_5_pasta_salad.jpg',
     difficulty: 'easy',
     funFact: 'באיטליה יש יותר מ-600 סוגים שונים של פסטה! כל אזור באיטליה ממציא את הצורה המיוחדת שלו, כמו ספגטי, פנה, פרפרים ועוד.'
   },
@@ -87,7 +87,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Turkey',
     countryHebrew: 'טורקיה',
     countryId: 'tr',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Shawarma_from_Abou_Shadi%2C_Cairo.jpg/800px-Shawarma_from_Abou_Shadi%2C_Cairo.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Shawarma-sandwich-01.jpg/800px-Shawarma-sandwich-01.jpg',
     difficulty: 'easy',
     funFact: 'השוורמה הומצאה בטורקיה לפני מאות שנים. הבשר מתבשל על שיפוד מסתובב ענקי - לפעמים לוקח שעות שלמות עד שהוא מוכן!'
   },
@@ -98,7 +98,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Israel',
     countryHebrew: 'ישראל',
     countryId: 'il',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Falafels.jpg/800px-Falafels.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Falafels.jpg/800px-Falafels.jpg',
     difficulty: 'easy',
     funFact: 'הפלאפל עשוי מחומוס ותבלינים ומטוגן בשמן. בישראל הוא נחשב ל"מנת הלאום" ואוכלים אותו בפיתה עם חומוס וירקות.'
   },
@@ -109,7 +109,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Belgium',
     countryHebrew: 'בלגיה',
     countryId: 'be',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Waffles_with_Strawberries.jpg/800px-Waffles_with_Strawberries.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Waffles_with_Strawberries.jpg/800px-Waffles_with_Strawberries.jpg',
     difficulty: 'easy',
     funFact: 'הוואפל הבלגי הוא אחד הדברים הכי מפורסמים שיצאו מבלגיה! הוא גדול ורך יותר מוואפל רגיל ואוכלים אותו עם שוקולד ופירות.'
   },
@@ -120,7 +120,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Italy',
     countryHebrew: 'איטליה',
     countryId: 'it',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Spaghetti_bolognese_%284%29.jpg/800px-Spaghetti_bolognese_%284%29.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Liat_Portal_for_Foodie_Disorder_-_Spaghetti_bolognese_with_peas.jpg/800px-Liat_Portal_for_Foodie_Disorder_-_Spaghetti_bolognese_with_peas.jpg',
     difficulty: 'easy',
     funFact: 'המילה "ספגטי" באיטלקית פירושה "חוטים קטנים". אוכלים ספגטי בולונייזה עם רוטב בשר, וזה מאכל האהוב על ילדים בכל העולם!'
   },
@@ -134,7 +134,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Spain',
     countryHebrew: 'ספרד',
     countryId: 'es',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Paella_Valenciana.jpg/800px-Paella_Valenciana.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Paella_Valenciana.jpg/800px-Paella_Valenciana.jpg',
     difficulty: 'medium',
     funFact: 'הפאייה היא מנה ספרדית מסורתית מאורז עם ים-טוב או עוף. מבשלים אותה במחבת עגולה וגדולה מאוד שנקראת גם "פאייה"!'
   },
@@ -145,7 +145,7 @@ export const worldFoods: WorldFood[] = [
     country: 'India',
     countryHebrew: 'הודו',
     countryId: 'in',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Curry_at_a_thai_restaurant.jpg/800px-Curry_at_a_thai_restaurant.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Yellow_curry_and_green_curry_-_Nok_Nok_Kitchen_at_The_Cow_2025-09-30.jpg/800px-Yellow_curry_and_green_curry_-_Nok_Nok_Kitchen_at_The_Cow_2025-09-30.jpg',
     difficulty: 'medium',
     funFact: 'הקארי הוא תבשיל עם תבלינים חריפים שמגיע מהודו. יש מאות מתכוני קארי שונים - כל משפחה הודית מכינה אותו בדרכה המיוחדת!'
   },
@@ -156,7 +156,7 @@ export const worldFoods: WorldFood[] = [
     country: 'China',
     countryHebrew: 'סין',
     countryId: 'cn',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Dimsum.jpg/800px-Dimsum.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Dimsum.jpg/800px-Dimsum.jpg',
     difficulty: 'medium',
     funFact: 'דים סאם בסינית פירושו "נגיעה בלב". זה אוסף של מנות קטנות ומגוונות שמוגשות בסלים של במבוק. אוכלים אותו בארוחת בוקר מיוחדת!'
   },
@@ -167,7 +167,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Spain',
     countryHebrew: 'ספרד',
     countryId: 'es',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Gazpacho_soup.JPG/800px-Gazpacho_soup.JPG',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Gazpacho_Cazuela_Barro.jpg/800px-Gazpacho_Cazuela_Barro.jpg',
     difficulty: 'medium',
     funFact: "הגזפאצ'ו הוא מרק עגבניות קר שנאכל בקיץ בספרד. אין מבשלים אותו בכלל - מועכים את הירקות ושומרים במקרר! מרק קר - מה רעיון מיוחד!"
   },
@@ -178,7 +178,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Vietnam',
     countryHebrew: 'וייטנאם',
     countryId: 'vn',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Pho_with_tendon.jpg/800px-Pho_with_tendon.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Pho_Vietnamese_noodle_soup_in_Ho_Chi_Minh_City%2C_Vietnam.jpg/800px-Pho_Vietnamese_noodle_soup_in_Ho_Chi_Minh_City%2C_Vietnam.jpg',
     difficulty: 'medium',
     funFact: 'פו הוא מרק אטריות וייטנאמי שמבשלים אותו לפעמים יותר מ-12 שעות! הריח המיוחד שלו מגיע מתבלינים כמו ציפורן קינמון וכוכב אניס.'
   },
@@ -189,7 +189,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Hungary',
     countryHebrew: 'הונגריה',
     countryId: 'hu',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/HungarianGulash.jpg/800px-HungarianGulash.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Hungarian_Goulash_Recipe.png/800px-Hungarian_Goulash_Recipe.png',
     difficulty: 'medium',
     funFact: 'הגולאש הוא תבשיל בשר ומרק הונגרי חריף ואדום מפפריקה. הוא היה מאכל הרועים ההונגריים שנסעו עם עדריהם ברחבי הערבה!'
   },
@@ -200,7 +200,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Russia',
     countryHebrew: 'רוסיה',
     countryId: 'ru',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Borscht_with_sour_cream.jpg/800px-Borscht_with_sour_cream.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Borscht_with_bread.jpg/800px-Borscht_with_bread.jpg',
     difficulty: 'medium',
     funFact: 'הבורשט הוא מרק סלק סגול-אדמוני שמגיע מרוסיה ואוקראינה. הצבע המיוחד שלו מגיע מהסלק! אוכלים אותו עם כף שמנת חמוצה לבנה.'
   },
@@ -211,7 +211,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Greece',
     countryHebrew: 'יוון',
     countryId: 'gr',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Mousaka.JPG/800px-Mousaka.JPG',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mousakas.jpg/800px-Mousakas.jpg',
     difficulty: 'medium',
     funFact: 'המוסקה היא מנה יוונית עם שכבות של חצילים, בשר טחון ורוטב לבן. אופים אותה בתנור עד שהיא מוזהבת ומבעבעת - ריח נפלא!'
   },
@@ -222,7 +222,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Japan',
     countryHebrew: 'יפן',
     countryId: 'jp',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Shrimp_tempura_cut.jpg/800px-Shrimp_tempura_cut.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Shrimp_and_vegetables_tempura_-_Massachusetts.jpg/800px-Shrimp_and_vegetables_tempura_-_Massachusetts.jpg',
     difficulty: 'medium',
     funFact: 'הטמפורה היא שיטת טיגון יפנית שהגיעה מפורטוגל לפני 400 שנה! מטבלים ירקות וים-טוב בבלילה קלה ומטגנים בשמן רותח - מוכן תוך שניות!'
   },
@@ -247,7 +247,7 @@ export const worldFoods: WorldFood[] = [
     country: 'China',
     countryHebrew: 'סין',
     countryId: 'cn',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Peking_duck_%28English%29_850px.jpg/800px-Peking_duck_%28English%29_850px.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Peking_duck_by_Mr_Wabu_in_Beijing.jpg/800px-Peking_duck_by_Mr_Wabu_in_Beijing.jpg',
     difficulty: 'hard',
     funFact: 'ברווז פקין הוא מנה מפורסמת מסין שמכינים אותה כבר 600 שנה! הברווז נצלה בתנור מיוחד עד שהעור שלו נעשה פריך וזהוב כמו שוקולד!'
   },
@@ -258,7 +258,7 @@ export const worldFoods: WorldFood[] = [
     country: 'India',
     countryHebrew: 'הודו',
     countryId: 'in',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Samosachutney.jpg/800px-Samosachutney.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Samosachutney.jpg/800px-Samosachutney.jpg',
     difficulty: 'hard',
     funFact: 'הסמוסה היא מאפה משולש הודי שמתמלא בתפוחי אדמה ותבלינים. מוכרים אותה ברחובות הודו לכל אורך היום ואוכלים אותה עם רטבים חריפים!'
   },
@@ -269,7 +269,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Italy',
     countryHebrew: 'איטליה',
     countryId: 'it',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Risotto_di_granapadano.jpg/800px-Risotto_di_granapadano.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Risotto_de_gambas%2C_restaurant_Danieli_%28Vienne%2C_Autriche%29.jpg/800px-Risotto_de_gambas%2C_restaurant_Danieli_%28Vienne%2C_Autriche%29.jpg',
     difficulty: 'hard',
     funFact: 'הריזוטו הוא אורז איטלקי קרמי שמבשלים אותו לאט-לאט תוך ערבוב מתמיד. לוקח כ-20 דקות לבשל ריזוטו טוב - מחייב הרבה סבלנות!'
   },
@@ -291,7 +291,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Morocco',
     countryHebrew: 'מרוקו',
     countryId: 'ma',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Moroccan_Couscous.jpg/800px-Moroccan_Couscous.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Couscous_%2874111%29.jpg/800px-Couscous_%2874111%29.jpg',
     difficulty: 'hard',
     funFact: 'הקוסקוס עשוי מגרגירי סולת קטנטנים ונפוץ מאוד בצפון אפריקה. במרוקו נוהגים לאכול קוסקוס בערב שישי עם כל המשפחה!'
   },
@@ -302,7 +302,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Thailand',
     countryHebrew: 'תאילנד',
     countryId: 'th',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Phat_thai_kung_Chang_Khien_street_Chiang_Mai.jpg/800px-Phat_thai_kung_Chang_Khien_street_Chiang_Mai.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Pad_Thai_Noodles_-_Little_Thai%2C_Brighton_2024-03-21.jpg/800px-Pad_Thai_Noodles_-_Little_Thai%2C_Brighton_2024-03-21.jpg',
     difficulty: 'hard',
     funFact: 'פאד תאי הוא מנת אטריות מוקפצות תאילנדית עם ביצה, בוטנים ואוכמניות. זה אחד המאכלים הפופולריים ביותר ברחובות תאילנד!'
   },
@@ -313,7 +313,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Mexico',
     countryHebrew: 'מקסיקו',
     countryId: 'mx',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Chimichanga.jpg/800px-Chimichanga.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Chimichanga.jpg/800px-Chimichanga.jpg',
     difficulty: 'hard',
     funFact: "הצ'ימיצ'אנגה היא בוריטו מטוגן מקסיקני עם בשר, גבינה ואורז בפנים. המילה 'צ'ימיצ'אנגה' היא צליל מצחיק ללא משמעות ברורה!"
   },
@@ -324,7 +324,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Italy',
     countryHebrew: 'איטליה',
     countryId: 'it',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Melanzane_alla_parmigiana.jpg/800px-Melanzane_alla_parmigiana.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Melanzane_alla_parmigiana.jpg/800px-Melanzane_alla_parmigiana.jpg',
     difficulty: 'hard',
     funFact: 'הפרמג\'אנה היא מנה איטלקית עם שכבות חצילים, רוטב עגבניות וגבינה. אופים אותה בתנור עד שהגבינה נמסה ומוזהבת - פינוק אמיתי!'
   },
@@ -335,7 +335,7 @@ export const worldFoods: WorldFood[] = [
     country: 'USA',
     countryHebrew: 'ארצות הברית',
     countryId: 'us',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Eggs_Benedict.jpg/800px-Eggs_Benedict.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Eggs_Benedict.jpg/800px-Eggs_Benedict.jpg',
     difficulty: 'hard',
     funFact: 'ביצים בנדיקט הן מנת בוקר אמריקאית יוקרתית עם ביצה פושטת, חזה עגל ורוטב הולנדייז צהוב. ממציאים לגביה יש מחלוקת - כולם רוצים את הקרדיט!'
   },
@@ -346,7 +346,7 @@ export const worldFoods: WorldFood[] = [
     country: 'Austria',
     countryHebrew: 'אוסטריה',
     countryId: 'at',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wiener_Schnitzel_2.JPG/800px-Wiener_Schnitzel_2.JPG',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Wiener_Schnitzel_2012.jpg/800px-Wiener_Schnitzel_2012.jpg',
     difficulty: 'hard',
     funFact: 'השניצל הווינאי המקורי עשוי מחזה עגל מוקצף ומטוגן. הוא כל כך פופולרי בישראל שבישראל מכינים אותו מעוף - ויש אותו כמעט בכל מסעדה!'
   },

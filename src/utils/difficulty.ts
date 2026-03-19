@@ -164,7 +164,14 @@ export function buildLanguageQuestion(
   const pool = fullPool.length >= 4 ? fullPool : countries.filter(c => c.language && c.language.trim() !== '');
   const country = pool[Math.floor(Math.random() * pool.length)];
   // מנסה להביא distractors עם שפות שונות
-  const allOthers = pool.filter(c => c.id !== country.id && c.language !== country.language);
-  const options = shuffle([country, ...shuffle(allOthers).slice(0, 3)]);
+  const diffLang = pool.filter(c => c.id !== country.id && c.language !== country.language);
+  let distractors = shuffle(diffLang).slice(0, 3);
+  // fallback: אם אין מספיק distractors עם שפות שונות, הוסף כל מדינה שונה
+  if (distractors.length < 3) {
+    const extras = countries
+      .filter(c => c.language && c.language.trim() !== '' && c.id !== country.id && !distractors.find(d => d.id === c.id));
+    distractors = [...distractors, ...shuffle(extras)].slice(0, 3);
+  }
+  const options = shuffle([country, ...distractors]);
   return { country, options };
 }

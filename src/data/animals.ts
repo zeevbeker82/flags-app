@@ -222,7 +222,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'שור',
     animalEnglish: 'Bull',
     emoji: '🐂',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Charolais_Bull_crop.jpg/500px-Charolais_Bull_crop.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/TORO_BRAVO.jpg/500px-TORO_BRAVO.jpg',
     difficulty: 'medium',
     funFact: 'השור הוא סמל של ספרד. בספרד יש מסורת של מלחמות שוורים הנקראות "קוֹרִידָה", אם כי ימינו רבים מתנגדים לה.'
   },
@@ -610,12 +610,12 @@ export const nationalAnimals: CountryAnimal[] = [
     funFact: 'הצבי האדום הוא הממלה הגדולה ביותר באירלנד! הזכר מגדל קרניים ענקיות שהוא משיל ומחדש בכל שנה.'
   },
   {
-    countryId: 'gb',
+    countryId: 'gb-sct',
     countryHebrew: 'סקוטלנד',
     animal: 'חד-קרן',
     animalEnglish: 'Unicorn',
     emoji: '🦄',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/The_Unicorn_Rests_in_a_Garden_%28from_the_Unicorn_Tapestries%29_MET_DP118991.jpg/376px-The_Unicorn_Rests_in_a_Garden_%28from_the_Unicorn_Tapestries%29_MET_DP118991.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Unicorn_Outside_the_Scottish_National_War_Memorial_%286271810448%29.jpg/500px-Unicorn_Outside_the_Scottish_National_War_Memorial_%286271810448%29.jpg',
     difficulty: 'hard',
     funFact: 'החד-קרן הוא חיה מיתולוגית – הסמל הלאומי של סקוטלנד! הסקוטים האמינו שהחד-קרן הוא היצור החזק ביותר בעולם, אפילו יותר מהאריה.'
   },

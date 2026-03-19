@@ -1,5 +1,6 @@
 'use client';
 import { useState, useCallback } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { israelItems, IsraelItem } from '@/data/israel';
 import { useProgress } from '@/hooks/useProgress';
@@ -158,13 +159,23 @@ export default function IsraelPage() {
             </div>
           </div>
 
-          <div className="bg-white rounded-3xl p-6 shadow-2xl mb-4 text-center">
-            <div className="flex items-center justify-center gap-2 mb-3">
-              <span className={`text-xs font-bold px-2 py-1 rounded-full ${typeColors[ca.type] || 'bg-gray-100 text-gray-600'}`}>{ca.type}</span>
+          <div className="bg-white rounded-3xl shadow-2xl mb-4 overflow-hidden">
+            <div className="relative w-full h-48">
+              <Image
+                src={ca.photoUrl}
+                alt={ca.nameHebrew}
+                fill
+                style={{ objectFit: 'cover' }}
+                unoptimized
+              />
             </div>
-            <div className="text-6xl mb-3">{ca.emoji}</div>
-            <p className="text-gray-600 text-sm leading-relaxed">{ca.description}</p>
-            <p className="text-gray-400 text-xs mt-3 font-semibold">🇮🇱 מה השם?</p>
+            <div className="p-5 text-center">
+              <div className="flex items-center justify-center gap-2 mb-2">
+                <span className={`text-xs font-bold px-2 py-1 rounded-full ${typeColors[ca.type] || 'bg-gray-100 text-gray-600'}`}>{ca.type}</span>
+              </div>
+              <p className="text-gray-600 text-sm leading-relaxed">{ca.description}</p>
+              <p className="text-gray-400 text-xs mt-3 font-semibold">🇮🇱 מה השם?</p>
+            </div>
           </div>
 
           <div className="grid grid-cols-2 gap-3">

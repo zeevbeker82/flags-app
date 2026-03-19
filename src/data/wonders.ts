@@ -157,7 +157,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Cambodia',
     countryHebrew: 'קמבודיה',
     countryId: 'kh',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Angkor_Wat_temple%2C_Angkor%2C_Cambodia.jpg/800px-Angkor_Wat_temple%2C_Angkor%2C_Cambodia.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Angkor_Wat_with_its_reflection_%28cropped%29.jpg/800px-Angkor_Wat_with_its_reflection_%28cropped%29.jpg',
     difficulty: 'medium',
     funFact: 'אנקורוואט הוא המקדש הגדול ביותר בעולם! הוא נבנה בקמבודיה לפני כ-900 שנה ויש בו כל כך הרבה חדרים שאפשר ללכת בו שעות.',
     year: 'נבנה ב-1150'
@@ -220,7 +220,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'UAE',
     countryHebrew: 'איחוד האמירויות',
     countryId: 'ae',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Burj_Khalifa.jpg/800px-Burj_Khalifa.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Burj_Khalifa_%2816260269606%29.jpg/800px-Burj_Khalifa_%2816260269606%29.jpg',
     difficulty: 'hard',
     funFact: 'בורג\' ח\'ליפה בדובאי הוא הבניין הגבוה ביותר בעולם! הוא גבוה יותר מ-828 מטרים – כמו 200 קומות! מהפסגה שלו אפשר לראות עד 95 קילומטרים.',
     year: 'נבנה ב-2010'
@@ -232,7 +232,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Turkey',
     countryHebrew: 'טורקיה',
     countryId: 'tr',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Istanbul_Turkey_Blue-Mosque.jpg/800px-Istanbul_Turkey_Blue-Mosque.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Blue_Mosque_Courtyard_Dusk_Wikimedia_Commons.jpg/800px-Blue_Mosque_Courtyard_Dusk_Wikimedia_Commons.jpg',
     difficulty: 'hard',
     funFact: 'המסגד הכחול באיסטנבול קיבל את שמו בגלל האריחים הכחולים היפהפיים שמקשטים את הקירות שלו מבפנים. יש בו שישה מגדלים גבוהים שנקראים מינרטים!',
     year: 'נבנה ב-1616'
@@ -244,7 +244,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Israel',
     countryHebrew: 'ישראל',
     countryId: 'il',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Western_Wall_jerusalem.jpg/800px-Western_Wall_jerusalem.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Western_wall_and_its_square%2C_jerusalem.jpg/800px-Western_wall_and_its_square%2C_jerusalem.jpg',
     difficulty: 'hard',
     funFact: 'הכותל המערבי הוא שריד מהמקדש של העם היהודי שנבנה לפני יותר מ-2,000 שנה! אנשים מכל העולם באים לכאן להתפלל ולשים פתקים בין אבניו.',
     year: 'נבנה ב-19 לפנה"ס'

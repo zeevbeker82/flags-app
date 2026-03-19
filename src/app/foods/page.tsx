@@ -33,7 +33,17 @@ function getPool(difficulty: Difficulty): WorldFood[] {
 
 function buildQuestion(pool: WorldFood[]): Question {
   const correct = pool[Math.floor(Math.random() * pool.length)];
-  const others = shuffle(pool.filter(f => f.countryId !== correct.countryId)).slice(0, 3);
+  const distractorPool = pool.filter(f => f.countryId !== correct.countryId);
+  const seen = new Set<string>([correct.countryId]);
+  const others: WorldFood[] = [];
+  const shuffled = shuffle(distractorPool);
+  for (const f of shuffled) {
+    if (!seen.has(f.countryId)) {
+      seen.add(f.countryId);
+      others.push(f);
+    }
+    if (others.length === 3) break;
+  }
   return { correct, options: shuffle([correct, ...others]) };
 }
 

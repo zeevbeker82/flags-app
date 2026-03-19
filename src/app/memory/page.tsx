@@ -4,7 +4,7 @@ import { countries } from '@/data/countries';
 import { useProgress } from '@/hooks/useProgress';
 import MemoryBoard from '@/components/MemoryBoard';
 import ContinentSelector from '@/components/ContinentSelector';
-import { Continent } from '@/types';
+import { Continent, Country } from '@/types';
 import { pickRandom } from '@/utils/shuffle';
 import { calcMemoryPoints } from '@/utils/scoring';
 
@@ -16,6 +16,7 @@ export default function MemoryPage() {
   const [level, setLevel] = useState<GameLevel>('easy');
   const [gameKey, setGameKey] = useState(0);
   const [playing, setPlaying] = useState(false);
+  const [selectedCountries, setSelectedCountries] = useState<Country[]>([]);
   const [result, setResult] = useState<{ moves: number; time: number; points: number } | null>(null);
   const { addPoints, unlockAchievement } = useProgress();
 
@@ -25,6 +26,7 @@ export default function MemoryPage() {
   const handleStart = () => {
     if (pool.length < pairs) return;
     setResult(null);
+    setSelectedCountries(pickRandom(pool, pairs));
     setGameKey(k => k + 1);
     setPlaying(true);
   };
@@ -40,7 +42,6 @@ export default function MemoryPage() {
   const formatTime = (s: number) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
 
   if (playing) {
-    const selected = pickRandom(pool, pairs);
     return (
       <div className="space-y-6">
         <div className="flex items-center justify-between">
@@ -49,7 +50,7 @@ export default function MemoryPage() {
             ✕ עצור
           </button>
         </div>
-        <MemoryBoard key={gameKey} countries={selected} onComplete={handleComplete} />
+        <MemoryBoard key={gameKey} countries={selectedCountries} onComplete={handleComplete} />
       </div>
     );
   }
