@@ -21,7 +21,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר הבירה של ישראל, שבה נמצאים כותל המערבי, כנסיית הקבר ומסגד עומר.',
     funFact: 'ירושלים היא אחת הערים העתיקות בעולם – בני אדם חיים בה כבר יותר מ-3,000 שנה! לשלושה דתות גדולות היא עיר קדושה.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Jerusalem-2013-Aerial-Old_City.jpg/800px-Jerusalem-2013-Aerial-Old_City.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%D7%94%D7%9E%D7%A6%D7%95%D7%93%D7%94_%D7%91%D7%9C%D7%99%D7%9C%D7%94.jpg/330px-%D7%94%D7%9E%D7%A6%D7%95%D7%93%D7%94_%D7%91%D7%9C%D7%99%D7%9C%D7%94.jpg',
   },
   {
     id: 'tel-aviv',
@@ -31,7 +31,7 @@ export const israelItems: IsraelItem[] = [
     description: 'העיר הגדולה ביותר בישראל, הידועה בחופיה, בתרבות הסואנת ובמגדלים גבוהים.',
     funFact: 'תל אביב נוסדה ב-1909 על חולות ים התיכון. שמה פירושו "גבעת האביב"! היום היא מרכז ההייטק של ישראל.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Azrieli_Towers_Tel_Aviv.jpg/800px-Azrieli_Towers_Tel_Aviv.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Sarona_CBD_01_%28cropped%29.jpg/330px-Sarona_CBD_01_%28cropped%29.jpg',
   },
   {
     id: 'haifa',
@@ -41,7 +41,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר נמל גדולה בצפון ישראל, בנויה על הר הכרמל ומפורסמת בגני הבהאי היפים.',
     funFact: 'בחיפה יש את הנמל הגדול ביותר בישראל! גני הבהאי שבה הם אחד מאתרי התיירות היפים ביותר בארץ ומוכרים ברחבי העולם.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Haifa_collage.jpg/800px-Haifa_collage.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/The_Hanging_Gardens_of_Haifa%2C_Israel_%2850099173503%29_%28cropped%29.jpg/330px-The_Hanging_Gardens_of_Haifa%2C_Israel_%2850099173503%29_%28cropped%29.jpg',
   },
   {
     id: 'dead-sea',
@@ -51,7 +51,7 @@ export const israelItems: IsraelItem[] = [
     description: 'האגם המלוח ביותר בעולם, השוכן בנקודה הנמוכה ביותר על פני כדור הארץ.',
     funFact: 'ים המלח מלוח כל כך שאי אפשר לשקוע בו – כולם צפים! הוא נמוך ב-430 מטר מתחת לפני הים.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Dead_Sea_Jordan_Valley.jpg/800px-Dead_Sea_Jordan_Valley.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Dead_Sea_beach_00.JPG/330px-Dead_Sea_beach_00.JPG',
   },
   {
     id: 'kinneret',
@@ -61,7 +61,7 @@ export const israelItems: IsraelItem[] = [
     description: 'אגם המים המתוקים הגדול ביותר בישראל, המספק מים לרוב תושבי הארץ.',
     funFact: 'ים כנרת הוא מקור המים השתייה החשוב ביותר של ישראל! כשפרח "הכנרת מלאה" כולם שמחים, כי יש הרבה מים לכולם.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sea_of_Galilee_by_David_Shankbone.jpg/800px-Sea_of_Galilee_by_David_Shankbone.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Kinneret_cropped.jpg/330px-Kinneret_cropped.jpg',
   },
   {
     id: 'mediterranean',
@@ -71,7 +71,7 @@ export const israelItems: IsraelItem[] = [
     description: 'הים הגדול שלאורך החוף המערבי של ישראל, עם חופים חוליים ומי תכלת.',
     funFact: 'ים התיכון מחבר בין ישראל לאירופה ולצפון אפריקה! חופי ישראל הם 190 קילומטר לאורך הים התיכון.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Israel_Mediterranean_Coast.jpg/800px-Israel_Mediterranean_Coast.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mediterranean_Sea_16.61811E_38.99124N.jpg/330px-Mediterranean_Sea_16.61811E_38.99124N.jpg',
   },
   {
     id: 'negev',
@@ -81,7 +81,7 @@ export const israelItems: IsraelItem[] = [
     description: 'מדבר גדול בדרום ישראל, המכסה יותר מחצי משטחה של המדינה.',
     funFact: 'הנגב הוא המדבר שלנו! הוא תופס יותר ממחצית שטח ישראל, אבל רק כ-8% מהאוכלוסייה גרה בו. ב"מכתש רמון" אפשר לראות נוף מדהים.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Negev_Desert_Israel.jpg/800px-Negev_Desert_Israel.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/NahalHavarimNov212022_03.jpg/330px-NahalHavarimNov212022_03.jpg',
   },
   {
     id: 'galilee',
@@ -91,7 +91,7 @@ export const israelItems: IsraelItem[] = [
     description: 'אזור הצפון הירוק והיפה של ישראל, עם הרים, יערות ועמקים פוריים.',
     funFact: 'הגליל הוא האזור הירוק ביותר בישראל! שם נמצאים הנחלים הגדולים ביותר ויערות ירוקים שיפים. הגליל העליון מגיע לגובה של יותר מ-1,200 מטר.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Galilee_landscape.jpg/800px-Galilee_landscape.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Emek_Harod.jpeg/330px-Emek_Harod.jpeg',
   },
   {
     id: 'ashdod',
@@ -101,7 +101,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר נמל גדולה בדרום מישור החוף, אחת הערים הגדולות בישראל, עם נמל הים הגדול ביותר בארץ.',
     funFact: 'נמל אשדוד הוא הנמל המסחרי הגדול ביותר בישראל! דרכו נכנסות הרבה מהסחורות שמגיעות לישראל מחו"ל. בתנ"ך, אשדוד הייתה עיר פלשתים.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ashdod_montage.jpg/800px-Ashdod_montage.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/%D7%90%D7%A9%D7%93%D7%95%D7%93-%D7%99%D7%9D.jpg/330px-%D7%90%D7%A9%D7%93%D7%95%D7%93-%D7%99%D7%9D.jpg',
   },
   {
     id: 'eilat-easy',
@@ -111,7 +111,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר הנופש בקצה הדרומי של ישראל, על שפת ים סוף, המפורסמת בשוניות האלמוגים הצבעוניות.',
     funFact: 'אילת היא המקום החם ביותר בישראל! שם חם כמעט כל ימות השנה. תחת המים אפשר לראות דגים צבעוניים ושוניות אלמוגים מדהימות.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Eilat_Israel_2008.jpg/800px-Eilat_Israel_2008.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Eilat_night_hotels_2016.jpg/330px-Eilat_night_hotels_2016.jpg',
   },
   {
     id: 'rishon-lezion',
@@ -121,7 +121,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר גדולה בדרום מישור החוף, ממייסדות הישוב היהודי המודרני בארץ ישראל, מפורסמת בכרמיה ובתרבותה.',
     funFact: 'ראשון לציון היא אחת הערים הראשונות שנוסדו בתקופה המודרנית בארץ ישראל – ב-1882! שמה פירושו "הראשון לציון". בה נבנה בית הספר הראשון שלימד בעברית.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Rishon_LeZion_aerial.jpg/800px-Rishon_LeZion_aerial.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Rishon-LeZion-Gan-Moshava-0002.jpg/330px-Rishon-LeZion-Gan-Moshava-0002.jpg',
   },
   {
     id: 'beer-sheva-easy',
@@ -131,7 +131,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר גדולה בלב הנגב, הנקראת "בירת הנגב", שבה חי אברהם אבינו לפי התנ"ך.',
     funFact: 'באר שבע מוזכרת הרבה פעמים בתנ"ך! אברהם אבינו חפר בה באר – ומשם מגיע שמה. היום היא עיר מודרנית עם אוניברסיטה גדולה.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Be%27er_Sheva_aerial_view.jpg/800px-Be%27er_Sheva_aerial_view.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Beersheba%2C_Be%27er_Avraham_01.jpg/330px-Beersheba%2C_Be%27er_Avraham_01.jpg',
   },
   {
     id: 'netanya',
@@ -141,7 +141,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר חוף יפה במרכז ישראל, על שפת הים התיכון, מפורסמת בחופיה הנפלאים ובמצוקי החול.',
     funFact: 'נתניה נוסדה ב-1929 ונקראה על שם נתן שטראוס שתרם לבנייתה. החוף שלה נמצא מתחת למצוקים גבוהים מאוד – ויש מעלית מיוחדת מהעיר לחוף!',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Netanya_Israel.jpg/800px-Netanya_Israel.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/20201130_153836_%D7%9E%D7%91%D7%98_%D7%9E%D7%9C%D7%9E%D7%A2%D7%9C%D7%94_%D7%A2%D7%9C_%D7%A9%D7%9C%D7%95%D7%9C%D7%99%D7%AA_%D7%94%D7%97%D7%95%D7%A8%D7%A3_%D7%91%D7%A0%D7%AA%D7%A0%D7%99%D7%94.jpg/330px-20201130_153836_%D7%9E%D7%91%D7%98_%D7%9E%D7%9C%D7%9E%D7%A2%D7%9C%D7%94_%D7%A2%D7%9C_%D7%A9%D7%9C%D7%95%D7%9C%D7%99%D7%AA_%D7%94%D7%97%D7%95%D7%A8%D7%A3_%D7%91%D7%A0%D7%AA%D7%A0%D7%99%D7%94.jpg',
   },
   {
     id: 'hermon',
@@ -151,7 +151,7 @@ export const israelItems: IsraelItem[] = [
     description: 'ההר הגבוה ביותר בישראל, הנמצא בצפון הארץ, עם שלג בחורף ואתר סקי.',
     funFact: 'החרמון הוא ההר הגבוה ביותר בישראל – 2,814 מטר! בחורף מכוסה שלג ויש בו אתר סקי. הוא מכונה גם "עיני הארץ" כי ממנו רואים רחוק מאוד.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Mount_Hermon_2.jpg/800px-Mount_Hermon_2.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Hermonsnow.jpg/330px-Hermonsnow.jpg',
   },
   {
     id: 'jezreel-valley',
@@ -161,7 +161,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עמק פורה ורחב בצפון ישראל, בין הגליל להר הכרמל, מוכר בחקלאות ובשדות ירוקים.',
     funFact: 'עמק יזרעאל הוא "סל הלחם" של ישראל! הוא אחד העמקים הפוריים בארץ. בו גדלים חיטה, כותנה וירקות. בתנ"ך הוא מוזכר כמקום קרבות גדולים.',
     difficulty: 'easy',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Jezreel_Valley_from_Megiddo.jpg/800px-Jezreel_Valley_from_Megiddo.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/PikiWiki_Israel_14301_Gilboa_Mountain.JPG/330px-PikiWiki_Israel_14301_Gilboa_Mountain.JPG',
   },
 
   // ========== MEDIUM (20) ==========
@@ -174,7 +174,7 @@ export const israelItems: IsraelItem[] = [
     description: 'מצודה עתיקה על צוק גבוה בלב המדבר, ליד ים המלח, שבה התחזקו לוחמים יהודים לפני כ-2,000 שנה.',
     funFact: 'מצדה היא סמל של גבורה ועמידה! כדי לעלות אליה ישנם שני דרכים: בכבל-רכבל מרהיב, או בדרך הקשה יותר – "שביל הנחש" שעולה בעקלתון.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Masada_01.jpg/800px-Masada_01.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Israel-2013-Aerial_21-Masada.jpg/330px-Israel-2013-Aerial_21-Masada.jpg',
   },
   {
     id: 'nazareth',
@@ -184,7 +184,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר בצפון ישראל, קדושה לנוצרים כעיר שבה גדל ישו, ומלאה כנסיות עתיקות.',
     funFact: 'נצרת היא העיר הערבית הגדולה ביותר בישראל. בה נמצאת כנסיית הבשורה – אחת הכנסיות הגדולות בעולם! מיליוני תיירים מגיעים אליה כל שנה.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Basilica_of_the_Annunciation_Nazareth.jpg/800px-Basilica_of_the_Annunciation_Nazareth.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nazareth_Panorama_Dafna_Tal_IMOT_%2814532097313%29.jpg/330px-Nazareth_Panorama_Dafna_Tal_IMOT_%2814532097313%29.jpg',
   },
   {
     id: 'akko',
@@ -194,7 +194,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר נמל עתיקה בחוף צפון ישראל, עם חומות עתיקות, שוק צבעוני ותעלות מחתרת מרתקות.',
     funFact: 'עכו היא אחת מהערים המיושבות ביותר בלא הפסקה בעולם – כבר 5,000 שנה! הרובע העתיק שלה הוא אתר מורשת עולמי של אונסקו.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Acre_Old_City.jpg/800px-Acre_Old_City.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Acre_-_Akko_6_-_the_fishing_port_%286658890981%29.jpg/330px-Acre_-_Akko_6_-_the_fishing_port_%286658890981%29.jpg',
   },
   {
     id: 'carmel',
@@ -204,7 +204,7 @@ export const israelItems: IsraelItem[] = [
     description: 'שרשרת הרים ירוקה ויפה בצפון ישראל, המשתרעת מחיפה עד לעמק יזרעאל.',
     funFact: 'הכרמל הוא "ריאות" של חיפה! הוא מכוסה ביערות ירוקים ומעניק לעיר אוויר נקי. בתנ"ך הכרמל מוזכר כמקום של יופי ופריחה.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mount_Carmel_panorama.jpg/800px-Mount_Carmel_panorama.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Caiobadner_-_mount_carmel.JPG/330px-Caiobadner_-_mount_carmel.JPG',
   },
   {
     id: 'jordan-river',
@@ -214,7 +214,7 @@ export const israelItems: IsraelItem[] = [
     description: 'הנהר החשוב ביותר בישראל, הזורם מהחרמון דרך ים כנרת עד לים המלח.',
     funFact: 'נהר הירדן הוא גבול בין ישראל לירדן! הוא מוזכר מאות פעמים בתנ"ך. עולי הרגל הנוצרים מגיעים לטבול במימיו בעקבות ישו.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jordan_River_north.jpg/800px-Jordan_River_north.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/20100923_mer_morte13.JPG/330px-20100923_mer_morte13.JPG',
   },
   {
     id: 'kinneret-lake',
@@ -224,7 +224,7 @@ export const israelItems: IsraelItem[] = [
     description: 'האגם הגדול ביותר בישראל, הנמצא בצפון הארץ, קדוש ליהודים ולנוצרים כאחד.',
     funFact: 'לאגם כנרת יש שמות רבים – ים כנרת, ים הגליל, ים טבריה! הוא נמצא 209 מטר מתחת לפני הים. מסביבו יש עיירות ותיירות ענפה.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sea_of_Galilee_by_David_Shankbone.jpg/800px-Sea_of_Galilee_by_David_Shankbone.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Kinneret_cropped.jpg/330px-Kinneret_cropped.jpg',
   },
   {
     id: 'ashkelon',
@@ -234,7 +234,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר חוף יפה בדרום ישראל, עם פארק לאומי עם שרידים עתיקים ממש על שפת הים.',
     funFact: 'אשקלון היא אחת הערים העתיקות בעולם – בה נמצאו שרידים מלפני 5,000 שנה! בפארק הלאומי שלה אפשר לראות עמודים רומיים ממש על החוף.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Ashkelon_National_Park.jpg/800px-Ashkelon_National_Park.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/93439_marina_ashkelon_PikiWiki_Israel.jpg/330px-93439_marina_ashkelon_PikiWiki_Israel.jpg',
   },
   {
     id: 'nahariya',
@@ -244,7 +244,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר החוף הצפונית ביותר בישראל, הידועה בנהר הגעתון הזורם במרכז העיר ובחופיה הנפלאים.',
     funFact: 'נהריה היא העיר הצפונית ביותר על חוף הים בישראל! בלב העיר זורם נהר הגעתון – דבר נדיר מאוד בערים ישראליות. העיר נוסדה בשנת 1934 על ידי עולים מגרמניה.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Nahariya_beach.jpg/800px-Nahariya_beach.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Achziv_IMG_5322.JPG/330px-Achziv_IMG_5322.JPG',
   },
   {
     id: 'rehovot',
@@ -254,7 +254,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר במרכז ישראל, מפורסמת במכון ויצמן למדע – אחד ממוסדות המחקר המובילים בעולם.',
     funFact: 'רחובות היא עיר המדע של ישראל! מכון ויצמן שבה מכשיר מדענים שזכו בפרס נובל. שמה מגיע מהפסוק "כי עתה הרחיב ה\' לנו" מספר בראשית.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Rehovot_from_above.jpg/800px-Rehovot_from_above.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Rehovot_Aerial_View.jpg/330px-Rehovot_Aerial_View.jpg',
   },
   {
     id: 'petah-tikva',
@@ -264,7 +264,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר גדולה במרכז ישראל, הנקראת "אם המושבות" כי היא הייתה אחד היישובים הראשונים שהוקמו בארץ ישראל המודרנית.',
     funFact: 'פתח תקווה נוסדה בשנת 1878 – היא "אם המושבות"! היא אחד היישובים הראשונים שהקימו יהודים בארץ ישראל המודרנית. שמה מגיע מהנביא הושע.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Petah_tikva_skyline.jpg/800px-Petah_tikva_skyline.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Jabotinsky_Skyline_Petah_Tikva_01.jpg/330px-Jabotinsky_Skyline_Petah_Tikva_01.jpg',
   },
   {
     id: 'afula',
@@ -274,7 +274,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר במרכז עמק יזרעאל, הנקראת "עיר העמק", ומשמשת כמרכז לאזור כולו.',
     funFact: 'עפולה נקראת "עיר העמק" כי היא ממוקמת בלב עמק יזרעאל! היא הוקמה ב-1925. ממנה אפשר להגיע בקלות לנצרת, מגידו ולכל אתרי הצפון.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Afula_area.jpg/800px-Afula_area.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Afula_IMG_0889.JPG/330px-Afula_IMG_0889.JPG',
   },
   {
     id: 'western-wall',
@@ -284,7 +284,7 @@ export const israelItems: IsraelItem[] = [
     description: 'שריד הקיר החיצוני של בית המקדש בירושלים, המקום הקדוש ביותר ליהודים בכל העולם.',
     funFact: 'מיליוני יהודים מגיעים לכותל להתפלל ולהניח פתקים בסדקי האבנים! הכותל עמד על כנו כבר יותר מ-2,000 שנה. בכל שנה מגיעים אליו יותר ממיליון מבקרים.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Western_Wall_jerusalem.jpg/800px-Western_Wall_jerusalem.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Westernwall2.jpg/330px-Westernwall2.jpg',
   },
   {
     id: 'herzl-mountain',
@@ -294,7 +294,7 @@ export const israelItems: IsraelItem[] = [
     description: 'הר בירושלים שעליו קבור בנימין זאב הרצל, מייסד הציונות המודרנית, ושם נמצא גם בית הקברות הצבאי הלאומי.',
     funFact: 'הר הרצל נקרא על שם תיאודור הרצל שחלם על הקמת מדינת ישראל! כל שנה ביום הזיכרון מתקיימות בו טקסים חגיגיים לזכר חיילי ישראל שנפלו.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mount_Herzl.jpg/800px-Mount_Herzl.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/ViewOfMountHerzlMar042023_04.jpg/330px-ViewOfMountHerzlMar042023_04.jpg',
   },
   {
     id: 'arava',
@@ -304,7 +304,7 @@ export const israelItems: IsraelItem[] = [
     description: 'בקעה ארוכה ויבשה בדרום ישראל, המשתרעת מים המלח עד אילת, ידועה בחוות השמש ובגידולי הירקות.',
     funFact: 'הערבה היא אחת המקומות החמים והצחיחים בישראל! אבל שם גדלים הרבה ירקות ופירות בחממות מיוחדות. גם מצוות אתרוג גדלות בערבה ומיוצאות לכל העולם.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Arava_Valley.jpg/800px-Arava_Valley.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Yarden_0182.JPG/330px-Yarden_0182.JPG',
   },
   {
     id: 'shephelah',
@@ -314,7 +314,7 @@ export const israelItems: IsraelItem[] = [
     description: 'אזור הגבעות הנמוכות בין מישור החוף לרי ההרים של יהודה ושומרון.',
     funFact: 'בשפלה נמצאים הרבה מערות מרתקות שחפרו בני אדם לפני אלפי שנים! שם גם גדל דוד המלך כרועה צאן, ושם הרג את גוליית הפלשתי.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Shephelah_landscape.jpg/800px-Shephelah_landscape.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TarumFeb282022.jpg_03.jpg/330px-TarumFeb282022.jpg_03.jpg',
   },
   {
     id: 'golan-heights',
@@ -324,7 +324,7 @@ export const israelItems: IsraelItem[] = [
     description: 'רמה גבוהה בצפון מזרח ישראל, עם נוף מרהיב, בריכות טבע ואתרי בילוי רבים.',
     funFact: 'ברמת הגולן יש בריכות טבע מדהימות כמו ברכת רם! שם גם חיים שוורי הבר הנדירים. הגולן ידוע גם בייצור יין ותפוחים טעימים.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Golan_Heights_landscape.jpg/800px-Golan_Heights_landscape.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Golan_Heights_-_Gamla_view.jpg/330px-Golan_Heights_-_Gamla_view.jpg',
   },
   {
     id: 'jordan-valley',
@@ -334,7 +334,7 @@ export const israelItems: IsraelItem[] = [
     description: 'בקעה ארוכה לאורך נהר הירדן, אחת הנמוכות בעולם, ידועה בתמרים מתוקים ובמזג אוויר חם.',
     funFact: 'בקעת הירדן היא אחת המקומות הנמוכים ביותר בעולם! התמרים שגדלים שם הם הטובים ביותר בעולם – מתוקים ועסיסיים. ליריחו, העיר הקדומה, יש מקורות מים עתיקים.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Jordan_Valley_Israel.jpg/800px-Jordan_Valley_Israel.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Yarden_0182.JPG/330px-Yarden_0182.JPG',
   },
   {
     id: 'ein-gedi',
@@ -344,7 +344,7 @@ export const israelItems: IsraelItem[] = [
     description: 'שמורת טבע מדהימה ליד ים המלח, עם מפלים, מעיינות ובעלי חיים נדירים כמו יעלים וברדלסים.',
     funFact: 'עין גדי פירושה "מעיין הגדי"! ברדלסים – חתולי בר – חיים שם בחופשיות. גם דוד המלך הסתתר שם מפני שאול. זה אחד הנאות המדבר היפים בעולם.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ein_Gedi_waterfall.jpg/800px-Ein_Gedi_waterfall.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/WadiKelt_ST_06.jpg/330px-WadiKelt_ST_06.jpg',
   },
   {
     id: 'caesarea',
@@ -354,7 +354,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר עתיקה ומפוארת שבנה המלך הורדוס לפני 2,000 שנה, עם נמל, קמרונות ואמפיתיאטרון שנמצא שם עד היום.',
     funFact: 'האמפיתיאטרון של קיסריה בן 2,000 שנה עדיין בשימוש! אמנים ישראליים ובינלאומיים מתארחים בו בקיץ. המשקיפים מהבמה רואים את ים התיכון.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Caesarea_Maritima_ampitheater.jpg/800px-Caesarea_Maritima_ampitheater.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Caesarea.JPG/330px-Caesarea.JPG',
   },
   {
     id: 'gilboa',
@@ -364,7 +364,7 @@ export const israelItems: IsraelItem[] = [
     description: 'רכס הרים בצפון ישראל, בין עמק יזרעאל לבקעת בית שאן, מפורסם בטבע היפה ובמצפה המרהיב.',
     funFact: 'הגלבוע הוא המקום שבו נפלו שאול המלך ובנו יהונתן בקרב עם הפלשתים! דוד המלך קינן עליהם בקינה מפורסמת. בגלבוע פורחות כלניות ורקפות נפלאות בחורף.',
     difficulty: 'medium',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mount_Gilboa.jpg/800px-Mount_Gilboa.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Gilboa_096.jpg/330px-Gilboa_096.jpg',
   },
 
   // ========== HARD (15) ==========
@@ -377,7 +377,7 @@ export const israelItems: IsraelItem[] = [
     description: 'נחל קטן הזורם לאגם כנרת, שלאורכו שרה המשוררת רחל שיריה הנפלאים.',
     funFact: 'לא הרבה ילדים יודעים שיש גם נחל כנרת, לא רק ים כנרת! המשוררת הלאומית רחל כתבה שירים רבים על נוף הכנרת ועל נחל זה.',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sea_of_Galilee_by_David_Shankbone.jpg/800px-Sea_of_Galilee_by_David_Shankbone.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Kinneret_cropped.jpg/330px-Kinneret_cropped.jpg',
   },
   {
     id: 'megiddo',
@@ -387,7 +387,7 @@ export const israelItems: IsraelItem[] = [
     description: 'תל עתיק בעמק יזרעאל שבו שכבות על שכבות של ערים עתיקות – אחד האתרים הארכיאולוגיים החשובים בישראל.',
     funFact: 'מגידו הייתה עיר חשובה כבר לפני 5,000 שנה! בה נמצאו אורוות סוסים של המלך שלמה. השם "הרמגדון" מגיע מ"הר מגידו" בעברית.',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Megiddo_aerial.jpg/800px-Megiddo_aerial.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/WikiAir_Flight_IL-13-09_062.jpg/330px-WikiAir_Flight_IL-13-09_062.jpg',
   },
   {
     id: 'beit-shean',
@@ -397,7 +397,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר עתיקה בעמק בית שאן שבה שרידי רחובות, עמודים ומרחצאות מהתקופה הרומית.',
     funFact: 'בית שאן היא אחת הערים העתיקות ביותר בעולם! בחפירות שם נמצאו עשרים ושמונה שכבות של ישוב אנושי. בתנ"ך מוזכרת שם פטירת שאול המלך.',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Beit_She%27an_ruins.jpg/800px-Beit_She%27an_ruins.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Beit_shean.jpg/330px-Beit_shean.jpg',
   },
   {
     id: 'sea-of-galilee',
@@ -407,7 +407,7 @@ export const israelItems: IsraelItem[] = [
     description: 'האגם הגדול של הצפון, הידוע גם בשמות ים הגליל וים טבריה, מרכז של חיים דיג ותיירות.',
     funFact: 'ים כנרת הוא הנמוך ביותר בין אגמי המים המתוקים בעולם! הוא נמצא 209 מטר מתחת לפני הים. כ-50% ממי השתייה של ישראל מגיעים ממנו.',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sea_of_Galilee_by_David_Shankbone.jpg/800px-Sea_of_Galilee_by_David_Shankbone.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Kinneret_cropped.jpg/330px-Kinneret_cropped.jpg',
   },
   {
     id: 'arad',
@@ -417,7 +417,7 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר בנגב הצפוני, מפורסמת באוויר הנקי שלה, ובסמיכותה לתל ערד – עיר כנענית ויהודית עתיקה.',
     funFact: 'האוויר של ערד הוא הנקי ביותר בישראל! ילדים הסובלים מאסטמה לעיתים עוברים לגור שם כדי לנשום טוב יותר. ליד העיר נמצא תל ערד שמוכרז כשמורת טבע.',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Negev_Desert_Israel.jpg/800px-Negev_Desert_Israel.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/WikiAir_IL-13-06_015_-_Arad.JPG/330px-WikiAir_IL-13-06_015_-_Arad.JPG',
   },
   {
     id: 'akko-old-city',
@@ -427,7 +427,7 @@ export const israelItems: IsraelItem[] = [
     description: 'העיר העתיקה של עכו, עם מנהרות צלבניות, מסגד ג\'זר ושוק מזרחי, המוכרזת כאתר מורשת עולמי.',
     funFact: 'עכו העתיקה שמורה כמעט בשלמותה מהתקופה הצלבנית! מתחת לרחובות שוכנת עיר שלמה מהמאה ה-12. נפוליאון בונפרטה ניסה לכבוש אותה ונכשל!',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Acre_Old_City.jpg/800px-Acre_Old_City.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Acre_-_Akko_6_-_the_fishing_port_%286658890981%29.jpg/330px-Acre_-_Akko_6_-_the_fishing_port_%286658890981%29.jpg',
   },
   {
     id: 'red-sea',
@@ -437,7 +437,7 @@ export const israelItems: IsraelItem[] = [
     description: 'ים טרופי בדרום ישראל, ליד אילת, המפורסם בשוניות האלמוגים הצבעוניות ובמגוון הדגים העשיר.',
     funFact: 'ים סוף הוא המקום היחיד בישראל עם שוניות אלמוגים טבעיות! מתחת למים חיים מאות סוגי דגים צבעוניים. בתנ"ך נבקע ים סוף לפני בני ישראל ביציאה ממצרים.',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Red_Sea_Eilat.jpg/800px-Red_Sea_Eilat.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/PikiWiki_Israel_8126_underwater_observatory_in_eilat.jpg/330px-PikiWiki_Israel_8126_underwater_observatory_in_eilat.jpg',
   },
   {
     id: 'mount-tabor',
@@ -447,7 +447,7 @@ export const israelItems: IsraelItem[] = [
     description: 'הר בצורת כיפה בגליל התחתון, קדוש לנוצרים כמקום "ההתרנות" של ישו, ומוכר בנוף הפנורמי שלו.',
     funFact: 'הר תבור נראה כמו כיפה ענקית באמצע השטח השטוח! בתנ"ך הוא מוזכר כמקום שבו ניצחה דבורה הנביאה בקרב. מהר תבור רואים את כל הגליל.',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Mount_Tabor.jpg/800px-Mount_Tabor.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/%D7%94%D7%A8_%D7%AA%D7%91%D7%95%D7%A8_%D7%91%D7%9E%D7%91%D7%98_%D7%9E%D7%93%D7%A8%D7%95%D7%9D_%D7%9E%D7%A2%D7%A8%D7%91.jpg/330px-%D7%94%D7%A8_%D7%AA%D7%91%D7%95%D7%A8_%D7%91%D7%9E%D7%91%D7%98_%D7%9E%D7%93%D7%A8%D7%95%D7%9D_%D7%9E%D7%A2%D7%A8%D7%91.jpg',
   },
   {
     id: 'ramon-crater',
@@ -457,7 +457,7 @@ export const israelItems: IsraelItem[] = [
     description: 'המכתש הגדול ביותר בעולם, הנמצא בנגב, ויוצר נוף מדברי מרהיב ובלתי נשכח.',
     funFact: 'מכתש רמון הוא לא מכתש של מטאור – הוא נוצר מסחיפת הסלעים על ידי מים! הוא גדול מאוד: 40 ק"מ ארוך ו-9 ק"מ רחב. שם חיים יעלים, צבועים ועופות נדירים.',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ramon_Crater.jpg/800px-Ramon_Crater.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/MakhteshRamonMar262022_01.jpg/330px-MakhteshRamonMar262022_01.jpg',
   },
   {
     id: 'caesarea-maritima',
@@ -467,7 +467,7 @@ export const israelItems: IsraelItem[] = [
     description: 'נמל עתיק שבנה הורדוס על חוף הים, עם אמפיתיאטרון, היפודרום וקמרונות נפלאים.',
     funFact: 'הורדוס בנה את נמל קיסריה בטכנולוגיה מתקדמת מאוד לתקופתה! הוא שקע בלוקים עצומים בים כדי ליצור את הנמל. האמפיתיאטרון שלה מכיל 4,000 אנשים ועדיין בשימוש.',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Caesarea_Maritima_ampitheater.jpg/800px-Caesarea_Maritima_ampitheater.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Caesarea.JPG/330px-Caesarea.JPG',
   },
   {
     id: 'bet-alfa',
@@ -477,7 +477,7 @@ export const israelItems: IsraelItem[] = [
     description: 'בית כנסת עתיק בעמק יזרעאל עם פסיפס נפלא מהמאה ה-6, המציג את גלגל המזלות ועקידת יצחק.',
     funFact: 'בבית אלפא נמצאו פסיפסים שמוריים לפני כ-100 שנה על ידי חברי קיבוץ! הפסיפס שם מציג גלגל מזלות שלם – הראשון שנמצא בישראל. הוא שמור בצורה מדהימה.',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Beit_Alpha_mosaic.jpg/800px-Beit_Alpha_mosaic.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/MosaicEpiphany-of-Dionysus.jpg/330px-MosaicEpiphany-of-Dionysus.jpg',
   },
   {
     id: 'nimrod-fortress',
@@ -487,7 +487,7 @@ export const israelItems: IsraelItem[] = [
     description: 'מצודה צלבנית ואיובית גדולה על מדרונות החרמון, אחת ממצודות האבן הגדולות בישראל.',
     funFact: 'מצודת נמרוד נבנתה לפני כ-800 שנה! היא שוכנת על הר ומשם רואים את כל רמת הגולן. שמה ניתן לה בשל הגיבור המקראי נמרוד "גיבור הציד".',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Nimrod_fortress.jpg/800px-Nimrod_fortress.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Nimrod_Fortress_%D7%9E%D7%91%D7%A6%D7%A8_%D7%A0%D7%9E%D7%A8%D7%95%D7%93.jpg/330px-Nimrod_Fortress_%D7%9E%D7%91%D7%A6%D7%A8_%D7%A0%D7%9E%D7%A8%D7%95%D7%93.jpg',
   },
   {
     id: 'beit-guvrin',
@@ -497,7 +497,7 @@ export const israelItems: IsraelItem[] = [
     description: 'שמורת טבע ואתר ארכיאולוגי בשפלה, עם מאות מערות פעמון מחצובות בסלע הגיר הרך.',
     funFact: 'בבית גוברין יש מאות מערות ענקיות שאנשים חצבו לפני אלפי שנים! ניתן לרדת לתוכן ולהרגיש כמו חוקר! האתר הוכרז כאתר מורשת עולמי על ידי אונסקו.',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Beit_Guvrin.jpg/800px-Beit_Guvrin.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Beit_Guvrin_1.JPG/330px-Beit_Guvrin_1.JPG',
   },
   {
     id: 'upper-galilee',
@@ -507,7 +507,7 @@ export const israelItems: IsraelItem[] = [
     description: 'האזור הצפוני והגבוה של הגליל, עם יערות עבותים, נחלים קרים ונוף הררי מרהיב.',
     funFact: 'הגליל העליון הוא הירוק והגבוה מבין אזורי ישראל! ההר הגבוה ביותר בו הוא הר מירון – 1,208 מטר. שם חיים שועלים, איילים ועופות נדירים.',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Upper_Galilee_landscape.jpg/800px-Upper_Galilee_landscape.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Lemon_Orchard_in_the_Galilee_by_David_Shankbone.jpg/330px-Lemon_Orchard_in_the_Galilee_by_David_Shankbone.jpg',
   },
   {
     id: 'zippori',
@@ -517,6 +517,6 @@ export const israelItems: IsraelItem[] = [
     description: 'עיר עתיקה בגליל התחתון עם פסיפסים נפלאים, ובה חיבר רבי יהודה הנשיא את המשנה לפני כ-1,800 שנה.',
     funFact: 'בציפורי נמצא הפסיפס המפורסם בשם "מונה ליזה של הגליל" – פנים של אישה יפה מפסיפס בת 1,800 שנה! המשנה, ספר הלימוד היהודי החשוב, נכתבה בציפורי.',
     difficulty: 'hard',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Zippori_mosaic.jpg/800px-Zippori_mosaic.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/%D7%AA%D7%9E%D7%95%D7%A0%D7%94_134.jpg/330px-%D7%AA%D7%9E%D7%95%D7%A0%D7%94_134.jpg',
   },
 ];

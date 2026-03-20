@@ -3,6 +3,7 @@ import { useState, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { worldWonders, WorldWonder } from '@/data/wonders';
+import { proxyUrl } from '@/utils/proxyUrl';
 import { countries } from '@/data/countries';
 import { useProgress } from '@/hooks/useProgress';
 import { useSound } from '@/hooks/useSound';
@@ -160,11 +161,12 @@ export default function WondersPage() {
             <p className="text-gray-400 text-sm font-semibold mb-3">🌍 מאיזה מדינה הפלא הזה?</p>
             <div className="relative w-full rounded-2xl overflow-hidden mb-3" style={{ height: '280px' }}>
               <Image
-                src={cw.photoUrl}
+                src={proxyUrl(cw.photoUrl)}
                 alt={cw.nameEnglish}
                 fill
                 style={{ objectFit: 'cover' }}
                 priority
+                unoptimized
                 sizes="(max-width: 768px) 100vw, 448px"
               />
             </div>

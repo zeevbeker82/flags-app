@@ -22,7 +22,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'France',
     countryHebrew: 'צרפת',
     countryId: 'fr',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/800px-Tour_Eiffel_Wikimedia_Commons.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/330px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg',
     difficulty: 'easy',
     funFact: 'מגדל אייפל נבנה ב-1889 ובתחילה אנשים לא אהבו אותו! היום הוא הדבר הנצפה ביותר בעולם ומבקרים בו יותר מ-7 מיליון אנשים כל שנה.',
     year: 'נבנה ב-1889'
@@ -34,7 +34,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'USA',
     countryHebrew: 'ארצות הברית',
     countryId: 'us',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/800px-Statue_of_Liberty_7.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Front_view_of_Statue_of_Liberty_%28cropped%29.jpg/330px-Front_view_of_Statue_of_Liberty_%28cropped%29.jpg',
     difficulty: 'easy',
     funFact: 'פסל החירות הוא מתנה שצרפת נתנה לאמריקה לפני יותר מ-100 שנה! הפסל גבוה כמו בניין של 22 קומות.',
     year: 'נבנה ב-1886'
@@ -46,7 +46,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Egypt',
     countryHebrew: 'מצרים',
     countryId: 'eg',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/800px-Kheops-Pyramid.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/330px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg',
     difficulty: 'easy',
     funFact: 'הפירמידה הגדולה של גיזה נבנתה לפני 4,500 שנה ועוד היום איננו יודעים בדיוק איך הצליחו לבנות אותה! היא הייתה הבניין הגבוה בעולם במשך 3,800 שנים.',
     year: 'נבנה לפני 4,500 שנה'
@@ -58,7 +58,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'India',
     countryHebrew: 'הודו',
     countryId: 'in',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg/800px-Taj_Mahal%2C_Agra%2C_India_edit3.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/330px-Taj_Mahal_%28Edited%29.jpeg',
     difficulty: 'easy',
     funFact: 'טאג\' מאהל נבנה על ידי מלך שאהב את אשתו מאוד, ורצה לבנות לה מבנה מרהיב לזכרה. 20,000 פועלים עבדו במשך 22 שנה כדי לבנות אותו!',
     year: 'נבנה ב-1643'
@@ -70,7 +70,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Italy',
     countryHebrew: 'איטליה',
     countryId: 'it',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/800px-Colosseo_2020.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/330px-Colosseo_2020.jpg',
     difficulty: 'easy',
     funFact: 'הקולוסיאום הוא אצטדיון ענק מלפני 2,000 שנה שבו היו מתקיימים משחקים ברומא העתיקה. הוא יכול היה להכיל עד 80,000 צופים!',
     year: 'נבנה ב-70 לספירה'
@@ -82,7 +82,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'China',
     countryHebrew: 'סין',
     countryId: 'cn',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/800px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/330px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg',
     difficulty: 'easy',
     funFact: 'חומת סין ארוכה כמו המרחק מישראל לאמריקה ובחזרה! היא נבנתה כדי להגן על סין מפני פולשים לפני יותר מ-2,000 שנה.',
     year: 'נבנה לפני 2,000 שנה'
@@ -94,7 +94,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Peru',
     countryHebrew: 'פרו',
     countryId: 'pe',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/800px-Machu_Picchu%2C_Peru.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Machu_Picchu%2C_2023_%28012%29.jpg/330px-Machu_Picchu%2C_2023_%28012%29.jpg',
     difficulty: 'easy',
     funFact: 'מאצ\'ו פיצ\'ו הוא עיר עתיקה שנבנתה בפסגת הרים גבוהים בדרום אמריקה. היא הייתה נסתרת מהעולם המודרני במשך מאות שנים עד שגילו אותה ב-1911!',
     year: 'נבנה ב-1450'
@@ -109,7 +109,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'United Kingdom',
     countryHebrew: 'בריטניה',
     countryId: 'gb',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Clock_Tower_-_Palace_of_Westminster%2C_London_-_September_2006-2.jpg/800px-Clock_Tower_-_Palace_of_Westminster%2C_London_-_September_2006-2.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Elizabeth_Tower%2C_June_2022.jpg/330px-Elizabeth_Tower%2C_June_2022.jpg',
     difficulty: 'medium',
     funFact: 'ביג בן הוא השם של הפעמון הגדול שבתוך המגדל בלונדון, לא שם המגדל עצמו! הפעמון שוקל 14 טון – כמו שני פילים!',
     year: 'נבנה ב-1859'
@@ -121,7 +121,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Jordan',
     countryHebrew: 'ירדן',
     countryId: 'jo',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Petra_Jordan_BW_21.JPG/800px-Petra_Jordan_BW_21.JPG',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Al_Deir_Petra.JPG/330px-Al_Deir_Petra.JPG',
     difficulty: 'medium',
     funFact: 'פטרה היא עיר עתיקה שנחצבה בתוך סלעים ורודים בירדן! האנשים שבנו אותה כיצבו בתים, מקדשים ורחובות שלמים ישירות בתוך הסלע.',
     year: 'נבנה ב-300 לפנה"ס'
@@ -133,7 +133,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Brazil',
     countryHebrew: 'ברזיל',
     countryId: 'br',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg/800px-Christ_the_Redeemer_-_Cristo_Redentor.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg/330px-Christ_the_Redeemer_-_Cristo_Redentor.jpg',
     difficulty: 'medium',
     funFact: 'פסל ישו הגואל עומד בפסגת הר גבוה מעל העיר ריו דה ז\'נרו בברזיל. הפסל גבוה כמו בניין של 10 קומות ואפשר לראות אותו ממרחקים רבים!',
     year: 'נבנה ב-1931'
@@ -145,7 +145,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Mexico',
     countryHebrew: 'מקסיקו',
     countryId: 'mx',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/800px-Chichen_Itza_3.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/330px-Chichen_Itza_3.jpg',
     difficulty: 'medium',
     funFact: 'צ\'יצ\'ן איצה היא פירמידה שנבנתה על ידי עם המאיה במקסיקו לפני 1,000 שנה. פעמיים בשנה, ביום ובלילה שווים, נוצר בה צל בצורת נחש!',
     year: 'נבנה ב-600 לספירה'
@@ -157,7 +157,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Cambodia',
     countryHebrew: 'קמבודיה',
     countryId: 'kh',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Angkor_Wat_with_its_reflection_%28cropped%29.jpg/800px-Angkor_Wat_with_its_reflection_%28cropped%29.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Buddhist_monks_in_front_of_the_Angkor_Wat.jpg/330px-Buddhist_monks_in_front_of_the_Angkor_Wat.jpg',
     difficulty: 'medium',
     funFact: 'אנקורוואט הוא המקדש הגדול ביותר בעולם! הוא נבנה בקמבודיה לפני כ-900 שנה ויש בו כל כך הרבה חדרים שאפשר ללכת בו שעות.',
     year: 'נבנה ב-1150'
@@ -169,7 +169,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Australia',
     countryHebrew: 'אוסטרליה',
     countryId: 'au',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sydney_Australia._%2821339175489%29.jpg/800px-Sydney_Australia._%2821339175489%29.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sydney_Australia._%2821339175489%29.jpg/330px-Sydney_Australia._%2821339175489%29.jpg',
     difficulty: 'medium',
     funFact: 'בית האופרה של סידני נראה כמו מפרשים של ספינה! הוא נבנה ב-1973 ויש בו יותר מ-1,000 חדרים שונים.',
     year: 'נבנה ב-1973'
@@ -181,7 +181,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Greece',
     countryHebrew: 'יוון',
     countryId: 'gr',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/800px-The_Parthenon_in_Athens.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg/330px-1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg',
     difficulty: 'medium',
     funFact: 'האקרופוליס הוא גבעה ביוון עם מקדשים עתיקים שנבנו לפני 2,500 שנה! המקדש הראשי שלו, הפרתנון, היה פעם מכוסה בצבעים עזים.',
     year: 'נבנה ב-447 לפנה"ס'
@@ -196,7 +196,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'United Kingdom',
     countryHebrew: 'בריטניה',
     countryId: 'gb',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Tower_bridge_London_Twilight_-_November_2006.jpg/800px-Tower_bridge_London_Twilight_-_November_2006.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tower_Bridge_at_Dawn.jpg/330px-Tower_Bridge_at_Dawn.jpg',
     difficulty: 'hard',
     funFact: 'מגדל לונדון הוא גשר מיוחד שיכול להיפתח באמצע כדי לאפשר לספינות גדולות לעבור! הוא נפתח כ-800 פעמים בשנה.',
     year: 'נבנה ב-1894'
@@ -208,7 +208,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Italy',
     countryHebrew: 'איטליה',
     countryId: 'it',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Leaning_tower_of_pisa_2.jpg/800px-Leaning_tower_of_pisa_2.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Italy_-_Pisa_-_Leaning_Tower.jpg/330px-Italy_-_Pisa_-_Leaning_Tower.jpg',
     difficulty: 'hard',
     funFact: 'מגדל פיזה מטה לצד אחד כי הקרקע מתחתיו רכה מדי! ההטיה שלו מתחילה עוד בזמן הבנייה לפני 800 שנה, אבל הוא עדיין עומד בגאון.',
     year: 'נבנה ב-1173'
@@ -220,7 +220,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'UAE',
     countryHebrew: 'איחוד האמירויות',
     countryId: 'ae',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Burj_Khalifa_%2816260269606%29.jpg/800px-Burj_Khalifa_%2816260269606%29.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Burj_Khalifa_%28worlds_tallest_building%29_and_the_Dubai_skyline_%2825781049892%29.jpg/330px-Burj_Khalifa_%28worlds_tallest_building%29_and_the_Dubai_skyline_%2825781049892%29.jpg',
     difficulty: 'hard',
     funFact: 'בורג\' ח\'ליפה בדובאי הוא הבניין הגבוה ביותר בעולם! הוא גבוה יותר מ-828 מטרים – כמו 200 קומות! מהפסגה שלו אפשר לראות עד 95 קילומטרים.',
     year: 'נבנה ב-2010'
@@ -232,7 +232,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Turkey',
     countryHebrew: 'טורקיה',
     countryId: 'tr',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Blue_Mosque_Courtyard_Dusk_Wikimedia_Commons.jpg/800px-Blue_Mosque_Courtyard_Dusk_Wikimedia_Commons.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Istanbul_%2834223582516%29_%28cropped%29.jpg/330px-Istanbul_%2834223582516%29_%28cropped%29.jpg',
     difficulty: 'hard',
     funFact: 'המסגד הכחול באיסטנבול קיבל את שמו בגלל האריחים הכחולים היפהפיים שמקשטים את הקירות שלו מבפנים. יש בו שישה מגדלים גבוהים שנקראים מינרטים!',
     year: 'נבנה ב-1616'
@@ -244,7 +244,7 @@ export const worldWonders: WorldWonder[] = [
     country: 'Israel',
     countryHebrew: 'ישראל',
     countryId: 'il',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Western_wall_and_its_square%2C_jerusalem.jpg/800px-Western_wall_and_its_square%2C_jerusalem.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Westernwall2.jpg/330px-Westernwall2.jpg',
     difficulty: 'hard',
     funFact: 'הכותל המערבי הוא שריד מהמקדש של העם היהודי שנבנה לפני יותר מ-2,000 שנה! אנשים מכל העולם באים לכאן להתפלל ולשים פתקים בין אבניו.',
     year: 'נבנה ב-19 לפנה"ס'

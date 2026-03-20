@@ -49,7 +49,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'נשר קרחת',
     animalEnglish: 'Bald Eagle',
     emoji: '🦅',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg/500px-Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg/330px-Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg',
     difficulty: 'easy',
     funFact: 'הנשר הקרחת אינו קרח באמת – הראש שלו מכוסה נוצות לבנות! הוא יכול לטוס במהירות של יותר מ-60 קמ"ש.'
   },
@@ -59,7 +59,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'ביבר',
     animalEnglish: 'Beaver',
     emoji: '🦫',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/500px-American_Beaver.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/330px-American_Beaver.jpg',
     difficulty: 'easy',
     funFact: 'הביבר בונה סכרים מענפים וטיט בנהרות. הוא אחד החיות הבנאיות החרוצות ביותר בטבע!'
   },
@@ -69,7 +69,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'דוב חום',
     animalEnglish: 'Brown Bear',
     emoji: '🐻',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/500px-2010-kodiak-bear-1.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/330px-2010-kodiak-bear-1.jpg',
     difficulty: 'easy',
     funFact: 'הדוב החום ישן כמעט כל החורף! זה נקרא תרדמת חורף, ובמהלכה הוא כמעט לא אוכל ולא שותה.'
   },
@@ -79,7 +79,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'אריה',
     animalEnglish: 'Lion',
     emoji: '🦁',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/330px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
     difficulty: 'easy',
     funFact: 'האריה נקרא "מלך החיות". הרעם שלו יכול להישמע ממרחק של 8 קילומטרים!'
   },
@@ -89,7 +89,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'קיווי',
     animalEnglish: 'Kiwi Bird',
     emoji: '🥝',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/TeTuatahianui.jpg/500px-TeTuatahianui.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/TeTuatahianui.jpg/330px-TeTuatahianui.jpg',
     difficulty: 'easy',
     funFact: 'ציפור הקיווי לא יכולה לעוף, אבל היא ריצה מהירה מאוד! היא גם ישנה ביום ויוצאת רק בלילה.'
   },
@@ -99,7 +99,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'ספרינגבוק',
     animalEnglish: 'Springbok',
     emoji: '🦌',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/174_Male_Springbok_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/500px-174_Male_Springbok_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/174_Male_Springbok_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/330px-174_Male_Springbok_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg',
     difficulty: 'easy',
     funFact: 'הספרינגבוק יכול לקפוץ לגובה של 3 מטרים! הוא עושה זאת כשהוא שמח או כדי לבהל טורפים.'
   },
@@ -129,7 +129,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'תרנגול גאלי',
     animalEnglish: 'Gallic Rooster',
     emoji: '🐓',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Male_and_female_chicken_sitting_together.jpg/500px-Male_and_female_chicken_sitting_together.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Male_and_female_chicken_sitting_together.jpg/330px-Male_and_female_chicken_sitting_together.jpg',
     difficulty: 'easy',
     funFact: 'התרנגול הגאלי הוא סמל של צרפת כבר מאות שנים. הוא מסמל גאווה וערנות – בדיוק כמו קריאת "קוקוריקו" בבוקר!'
   },
@@ -159,7 +159,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'פסיון ירוק',
     animalEnglish: 'Green Pheasant',
     emoji: '🦚',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Phasianus_versicolor_in_Japan.JPG/500px-Phasianus_versicolor_in_Japan.JPG',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Phasianus_versicolor_in_Japan.JPG/330px-Phasianus_versicolor_in_Japan.JPG',
     difficulty: 'easy',
     funFact: 'הפסיון הירוק הוא ציפור יפהפייה עם צבעים של ירוק וכחול. הוא חי רק ביפן!'
   },
@@ -169,7 +169,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'פומה',
     animalEnglish: 'Puma',
     emoji: '🐱',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mountain_Lion_in_Glacier_National_Park.jpg/500px-Mountain_Lion_in_Glacier_National_Park.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mountain_Lion_in_Glacier_National_Park.jpg/330px-Mountain_Lion_in_Glacier_National_Park.jpg',
     difficulty: 'easy',
     funFact: 'הפומה יכולה לקפוץ לגובה של 5 מטרים ולמרחק של 12 מטרים! היא ממש קפצנית.'
   },
@@ -179,7 +179,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'אריה',
     animalEnglish: 'Lion',
     emoji: '🦁',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/330px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
     difficulty: 'easy',
     funFact: 'אריה מופיע על סמל המלוכה של נורווגיה כבר מהמאה ה-13. הוא מסמל את אומץ לבם של הנורווגים.'
   },
@@ -189,7 +189,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'פיל',
     animalEnglish: 'Elephant',
     emoji: '🐘',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Elephas_maximus_%28Bandipur%29.jpg/500px-Elephas_maximus_%28Bandipur%29.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Elephas_maximus_%28Bandipur%29.jpg/330px-Elephas_maximus_%28Bandipur%29.jpg',
     difficulty: 'easy',
     funFact: 'הפיל הוא החיה הקדושה של תאילנד! פילים לבנים נחשבים מיוחדים במיוחד ושייכים למלך.'
   },
@@ -199,7 +199,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'אריה',
     animalEnglish: 'Lion',
     emoji: '🦁',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/330px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
     difficulty: 'easy',
     funFact: 'קניה היא אחד המקומות הטובים בעולם לראות אריות בטבע! בסוואנה חיים אלפי אריות.'
   },
@@ -209,7 +209,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'אריה',
     animalEnglish: 'Lion',
     emoji: '🦁',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/330px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
     difficulty: 'easy',
     funFact: 'האריה על סמל הולנד הוא כתום – צבע לאומי של הולנד! הצבע הכתום נקרא "כתום אורניה".'
   },
@@ -232,7 +232,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'זאב',
     animalEnglish: 'Wolf',
     emoji: '🐺',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/500px-Eurasian_wolf_2.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/330px-Eurasian_wolf_2.jpg',
     difficulty: 'medium',
     funFact: 'לפי האגדה, רומא נוסדה על ידי שני תאומים – רומולוס ורמוס – שגדלו וינקו מזאבה!'
   },
@@ -252,7 +252,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'דוב חום',
     animalEnglish: 'Brown Bear',
     emoji: '🐻',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/500px-2010-kodiak-bear-1.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/330px-2010-kodiak-bear-1.jpg',
     difficulty: 'medium',
     funFact: 'בפינלנד חיים יותר מ-2,000 דובים חומים! הדוב נחשב לסמל כוח וחוסן של העם הפיני.'
   },
@@ -262,7 +262,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'נשר לבן',
     animalEnglish: 'White Eagle',
     emoji: '🦅',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/NZ7_5265_%2852812350718%29.jpg/500px-NZ7_5265_%2852812350718%29.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/NZ7_5265_%2852812350718%29.jpg/330px-NZ7_5265_%2852812350718%29.jpg',
     difficulty: 'medium',
     funFact: 'הנשר הלבן על רקע אדום הוא סמל פולין מזה מאות שנים. הוא מופיע על הדגל ועל כל מטבע פולני.'
   },
@@ -272,7 +272,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'זאב אפור',
     animalEnglish: 'Grey Wolf',
     emoji: '🐺',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/500px-Eurasian_wolf_2.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/330px-Eurasian_wolf_2.jpg',
     difficulty: 'medium',
     funFact: 'לפי האגדה הטורקית, הזאב האפור הוביל את העם הטורקי ממרכז אסיה לאנטוליה. לכן הוא נחשב לסמל לאומי חשוב.'
   },
@@ -292,7 +292,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'מרחור',
     animalEnglish: 'Markhor',
     emoji: '🐐',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg/500px-Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg/330px-Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg',
     difficulty: 'medium',
     funFact: 'למרחור יש קרניים ספירליות ארוכות ומפותלות בצורה מרהיבה! הוא מטפס על הרים תלולים בקלות רבה.'
   },
@@ -312,7 +312,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'אריה',
     animalEnglish: 'Lion',
     emoji: '🦁',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/330px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
     difficulty: 'medium',
     funFact: 'האריה מופיע על דגל סרי לנקה אוחז חרב. הוא מסמל את האומץ ואת ההיסטוריה הגאה של המדינה.'
   },
@@ -322,7 +322,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'פרה',
     animalEnglish: 'Cow',
     emoji: '🐄',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Holstein_Cow_in_Mont%C3%A9r%C3%A9gie%2C_Quebec.jpg/500px-Holstein_Cow_in_Mont%C3%A9r%C3%A9gie%2C_Quebec.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/330px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg',
     difficulty: 'medium',
     funFact: 'בנפאל הפרה היא חיה קדושה! היא מסמלת אמהות, עושר ואדמה. אסור לפגוע בפרות בנפאל.'
   },
@@ -332,7 +332,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'נשר מצרי',
     animalEnglish: 'Steppe Eagle',
     emoji: '🦅',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Steppe_Eagle_Portrait.jpg/500px-Steppe_Eagle_Portrait.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Steppe_Eagle_Portrait.jpg/330px-Steppe_Eagle_Portrait.jpg',
     difficulty: 'medium',
     funFact: 'הנשר מופיע על דגל מצרים ונקרא "נשר צלאח אל-דין" על שם הגיבור הערבי הגדול. הוא מסמל כוח ורוממות.'
   },
@@ -342,7 +342,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'אריה ברברי',
     animalEnglish: 'Barbary Lion',
     emoji: '🦁',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Barbary_lion.jpg/500px-Barbary_lion.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Barbary_lion.jpg/330px-Barbary_lion.jpg',
     difficulty: 'medium',
     funFact: 'האריה הברברי היה הגדול ביותר בין תת-המינים של האריות! לצערנו הוא נכחד בטבע, אך חי בגני חיות ברחבי העולם.'
   },
@@ -352,7 +352,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'אריה',
     animalEnglish: 'Lion',
     emoji: '🦁',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/330px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
     difficulty: 'medium',
     funFact: 'קיסרי אתיופיה לשעבר נקראו "אריה יהודה" – תואר שמסמל כוח ומלכות מקראית.'
   },
@@ -372,7 +372,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'קונדור',
     animalEnglish: 'Condor',
     emoji: '🦅',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/AndeanCondorMale.jpg/500px-AndeanCondorMale.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/AndeanCondorMale.jpg/330px-AndeanCondorMale.jpg',
     difficulty: 'medium',
     funFact: 'הקונדור הוא אחד מהציפורות הגדולות ביותר בעולם! כנפיו פרושות יכולות להגיע לרוחב של 3 מטרים.'
   },
@@ -382,7 +382,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'ביקוניה',
     animalEnglish: 'Vicuña',
     emoji: '🦙',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Vicuna_%2889163948%29_%28cropped%29.jpg/500px-Vicuna_%2889163948%29_%28cropped%29.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Vicuna_%2889163948%29_%28cropped%29.jpg/330px-Vicuna_%2889163948%29_%28cropped%29.jpg',
     difficulty: 'medium',
     funFact: 'לביקוניה יש את הצמר הרך ביותר בעולם! בימי קדם רק מלכי האינקה הורשו ללבוש בגדים מצמרה.'
   },
@@ -392,7 +392,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'קונדור',
     animalEnglish: 'Condor',
     emoji: '🦅',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/AndeanCondorMale.jpg/500px-AndeanCondorMale.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/AndeanCondorMale.jpg/330px-AndeanCondorMale.jpg',
     difficulty: 'medium',
     funFact: 'הקונדור מסמל את חופש ורוח ההרים של האנדים. הוא יכול לעוף בגבהים של יותר מ-5,000 מטר!'
   },
@@ -402,7 +402,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'דרקון קומודו',
     animalEnglish: 'Komodo Dragon',
     emoji: '🦎',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/202306_Varanus_komodoensis.jpg/500px-202306_Varanus_komodoensis.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/202306_Varanus_komodoensis.jpg/330px-202306_Varanus_komodoensis.jpg',
     difficulty: 'medium',
     funFact: 'דרקון קומודו הוא הלטאה הגדולה ביותר בעולם! הוא יכול להגיע לאורך של 3 מטרים ולשקול 70 קילוגרם.'
   },
@@ -412,7 +412,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'נשר פיליפיני',
     animalEnglish: 'Philippine Eagle',
     emoji: '🦅',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Pamarayeg_IIIx2_%28cropped%29.jpg/500px-Pamarayeg_IIIx2_%28cropped%29.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Pamarayeg_IIIx2_%28cropped%29.jpg/330px-Pamarayeg_IIIx2_%28cropped%29.jpg',
     difficulty: 'medium',
     funFact: 'הנשר הפיליפיני הוא אחד הנשרים הגדולים ביותר בעולם! ראשו מעוטר בנוצות חומות כמו רעמה של אריה.'
   },
@@ -422,7 +422,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'אריה',
     animalEnglish: 'Lion',
     emoji: '🦁',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/330px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
     difficulty: 'medium',
     funFact: 'שמה של סינגפור מגיע מהמילה הסנסקריטית "סינגה-פורה" שפירושה "עיר האריות"! על הסמל שלה יש יצור חצי אריה חצי דג.'
   },
@@ -452,7 +452,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'פרה',
     animalEnglish: 'Cow',
     emoji: '🐄',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Holstein_Cow_in_Mont%C3%A9r%C3%A9gie%2C_Quebec.jpg/500px-Holstein_Cow_in_Mont%C3%A9r%C3%A9gie%2C_Quebec.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/330px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg',
     difficulty: 'medium',
     funFact: 'בשווייץ יש יותר פרות מאנשים בכמה קנטונים! הפרות השווייצריות מפורסמות בחלב הטעים שלהן, ממנו מכינים שוקולד ושוויצרי.'
   },
@@ -485,7 +485,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'אריה',
     animalEnglish: 'Lion',
     emoji: '🦁',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/330px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
     difficulty: 'hard',
     funFact: 'סמל בלגיה הוא "האריה הבלגי" – אריה שחור על רקע זהב. הוא מופיע על שיריון לוחמי בלגיה כבר מהמאה ה-12.'
   },
@@ -495,7 +495,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'אריה',
     animalEnglish: 'Lion',
     emoji: '🦁',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/330px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
     difficulty: 'hard',
     funFact: 'הסמל הלאומי של בולגריה הוא אריה זהוב על מגן כחול-אדום. האריה מסמל את עוצמת האומה הבולגרית.'
   },
@@ -505,7 +505,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'מרטן',
     animalEnglish: 'Marten',
     emoji: '🦦',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Pine_Marten_%2848173751702%29.jpg/500px-Pine_Marten_%2848173751702%29.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Pine_Marten_%2848173751702%29.jpg/330px-Pine_Marten_%2848173751702%29.jpg',
     difficulty: 'hard',
     funFact: 'המרטן הוא חיה זריזה ומהירה שחיה ביערות קרואטיה. שמה של מטבע קרואטיה – "קונה" – פירושו "מרטן" בקרואטית!'
   },
@@ -515,7 +515,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'אריה דו-זנבי',
     animalEnglish: 'Double-tailed Lion',
     emoji: '🦁',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/330px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg',
     difficulty: 'hard',
     funFact: "על סמל צ'כיה יש אריה לבן מיוחד עם שני זנבות! הוא מופיע על הסמל מהמאה ה-12 ומסמל את גבורת המדינה."
   },
@@ -535,7 +535,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'לינקס',
     animalEnglish: 'Lynx',
     emoji: '🐱',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Lynx_Nationalpark_Bayerischer_Wald_01.jpg/500px-Lynx_Nationalpark_Bayerischer_Wald_01.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Lynx_Nationalpark_Bayerischer_Wald_01.jpg/330px-Lynx_Nationalpark_Bayerischer_Wald_01.jpg',
     difficulty: 'hard',
     funFact: 'הלינקס הוא חתול בר בינוני עם אוזניים עם ציצות פרווה בקצותיהן! הוא חי ביערות הקרפטים ברומניה.'
   },
@@ -545,7 +545,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'נשר לבן דו-ראשי',
     animalEnglish: 'White Double-headed Eagle',
     emoji: '🦅',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/NZ7_5265_%2852812350718%29.jpg/500px-NZ7_5265_%2852812350718%29.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/NZ7_5265_%2852812350718%29.jpg/330px-NZ7_5265_%2852812350718%29.jpg',
     difficulty: 'hard',
     funFact: 'על סמל סרביה יש נשר לבן עם שתי ראשות. זהו סמל עתיק שמופיע באמנות סרבית מהמאה ה-13.'
   },
@@ -565,7 +565,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'לינקס',
     animalEnglish: 'Lynx',
     emoji: '🐱',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Lynx_Nationalpark_Bayerischer_Wald_01.jpg/500px-Lynx_Nationalpark_Bayerischer_Wald_01.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Lynx_Nationalpark_Bayerischer_Wald_01.jpg/330px-Lynx_Nationalpark_Bayerischer_Wald_01.jpg',
     difficulty: 'hard',
     funFact: 'הלינקס כמעט נכחד בסלובניה, אך תוכנית שימור מיוחדת הצליחה להשיבו! ימינו חיים שם עשרות לינקסים ביערות.'
   },
@@ -595,7 +595,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'ג\'ירפלקון',
     animalEnglish: 'Gyrfalcon',
     emoji: '🦅',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Falco_rusticolus_white_cropped.jpg/500px-Falco_rusticolus_white_cropped.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Falco_rusticolus_white_cropped.jpg/330px-Falco_rusticolus_white_cropped.jpg',
     difficulty: 'hard',
     funFact: "הג'ירפלקון הוא הנץ הגדול ביותר בעולם! הוא גר בצפון הקפוא של איסלנד ויכול לטוס במהירות של 200 קמ\"ש."
   },
@@ -635,7 +635,7 @@ export const nationalAnimals: CountryAnimal[] = [
     animal: 'גמל ערבי',
     animalEnglish: 'Arabian Camel',
     emoji: '🐪',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Camelus_dromedarius_in_Nuweiba.jpg/500px-Camelus_dromedarius_in_Nuweiba.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Camelus_dromedarius_in_Nuweiba.jpg/330px-Camelus_dromedarius_in_Nuweiba.jpg',
     difficulty: 'hard',
     funFact: 'הגמל הערבי יכול לשתות 130 ליטר מים בבת אחת! הוא שומר שומן בדבשת שלו – לא מים כפי שרבים חושבים.'
   },

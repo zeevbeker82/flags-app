@@ -3,6 +3,7 @@ import { useState, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { nationalAnimals, CountryAnimal } from '@/data/animals';
+import { proxyUrl } from '@/utils/proxyUrl';
 import { countries } from '@/data/countries';
 import { useProgress } from '@/hooks/useProgress';
 import { useSound } from '@/hooks/useSound';
@@ -180,11 +181,12 @@ export default function AnimalsPage() {
                 >
                   <div className="relative w-full h-24 rounded-xl overflow-hidden mb-2">
                     <Image
-                      src={opt.photoUrl}
+                      src={proxyUrl(opt.photoUrl)}
                       alt={opt.animalEnglish}
                       fill
                       style={{ objectFit: 'cover' }}
                       sizes="(max-width: 768px) 45vw, 200px"
+                      unoptimized
                     />
                   </div>
                   <div className="text-sm leading-tight">{opt.animal}</div>

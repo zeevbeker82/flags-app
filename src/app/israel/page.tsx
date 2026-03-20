@@ -3,6 +3,7 @@ import { useState, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { israelItems, IsraelItem } from '@/data/israel';
+import { proxyUrl } from '@/utils/proxyUrl';
 import { useProgress } from '@/hooks/useProgress';
 import { useSound } from '@/hooks/useSound';
 import FunFactPopup from '@/components/FunFactPopup';
@@ -162,12 +163,13 @@ export default function IsraelPage() {
           <div className="bg-white rounded-3xl shadow-2xl mb-4 overflow-hidden">
             <div className="relative w-full h-48">
               <Image
-                src={ca.photoUrl}
+                src={proxyUrl(ca.photoUrl)}
                 alt={ca.nameHebrew}
                 fill
                 style={{ objectFit: 'cover' }}
                 sizes="100vw"
                 priority
+                unoptimized
               />
             </div>
             <div className="p-5 text-center">
@@ -200,11 +202,12 @@ export default function IsraelPage() {
                 >
                   <div className="relative w-full h-20 rounded-xl overflow-hidden mb-2">
                     <Image
-                      src={opt.photoUrl}
+                      src={proxyUrl(opt.photoUrl)}
                       alt={opt.nameHebrew}
                       fill
                       style={{ objectFit: 'cover' }}
                       sizes="(max-width: 768px) 45vw, 200px"
+                      unoptimized
                     />
                   </div>
                   <div className="text-xs font-bold leading-tight">{opt.nameHebrew}</div>

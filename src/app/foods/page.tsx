@@ -3,6 +3,7 @@ import { useState, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { worldFoods, WorldFood } from '@/data/foods';
+import { proxyUrl } from '@/utils/proxyUrl';
 import { useProgress } from '@/hooks/useProgress';
 import { useSound } from '@/hooks/useSound';
 import FunFactPopup from '@/components/FunFactPopup';
@@ -158,11 +159,12 @@ export default function FoodsPage() {
             <p className="text-gray-400 text-sm font-semibold mb-3">🍽️ מאיזה מדינה האוכל הזה?</p>
             <div className="relative w-full rounded-2xl overflow-hidden shadow-md mb-3" style={{ height: '220px' }}>
               <Image
-                src={ca.photoUrl}
+                src={proxyUrl(ca.photoUrl)}
                 alt={ca.nameHebrew}
                 fill
                 style={{ objectFit: 'cover' }}
                 priority
+                unoptimized
                 sizes="(max-width: 768px) 100vw, 448px"
               />
             </div>
