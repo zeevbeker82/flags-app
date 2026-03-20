@@ -13,6 +13,8 @@ const navItems = [
   { href: '/world-map', label: 'מפה', icon: '🗺️' },
   { href: '/animals', label: 'חיות', icon: '🐾' },
   { href: '/israel', label: 'ישראל', icon: '🇮🇱' },
+  { href: '/wonders', label: 'פלאות', icon: '🏛️' },
+  { href: '/foods', label: 'אוכל', icon: '🍕' },
   { href: '/progress', label: 'התקדמות', icon: '📊' },
   { href: '/achievements', label: 'הישגים', icon: '🏆' },
 ];

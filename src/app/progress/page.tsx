@@ -90,6 +90,27 @@ export default function ProgressPage() {
         </div>
       </div>
 
+      {/* קטגוריות נוספות */}
+      <div className="bg-white rounded-2xl shadow p-5">
+        <h2 className="font-bold text-gray-700 text-lg mb-3">🗂️ קטגוריות נוספות</h2>
+        <div className="grid grid-cols-2 gap-3">
+          {[
+            { href: '/wonders', icon: '🏛️', label: 'פלאות העולם', desc: '20 אנדרטאות', color: 'bg-purple-50 border-purple-200 text-purple-700' },
+            { href: '/foods', icon: '🍕', label: 'אוכל מהעולם', desc: '30 מאכלים', color: 'bg-orange-50 border-orange-200 text-orange-700' },
+            { href: '/animals', icon: '🐾', label: 'חיות לאומיות', desc: 'נמרים ופנדות', color: 'bg-green-50 border-green-200 text-green-700' },
+            { href: '/israel', icon: '🇮🇱', label: 'ישראל שלנו', desc: 'ערים ואתרים', color: 'bg-blue-50 border-blue-200 text-blue-700' },
+          ].map(cat => (
+            <Link key={cat.href} href={cat.href} className={`flex items-center gap-3 rounded-xl border p-3 hover:shadow-md transition-all ${cat.color}`}>
+              <span className="text-2xl">{cat.icon}</span>
+              <div>
+                <p className="font-semibold text-sm">{cat.label}</p>
+                <p className="text-xs opacity-70">{cat.desc}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+
       {/* התקדמות כוללת */}
       <div className="bg-white rounded-2xl shadow p-5">
         <h2 className="font-bold text-gray-700 text-lg mb-4">התקדמות כוללת</h2>

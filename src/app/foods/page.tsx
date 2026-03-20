@@ -3,7 +3,6 @@ import { useState, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { worldFoods, WorldFood } from '@/data/foods';
-import { countries } from '@/data/countries';
 import { useProgress } from '@/hooks/useProgress';
 import { useSound } from '@/hooks/useSound';
 import FunFactPopup from '@/components/FunFactPopup';
@@ -164,6 +163,7 @@ export default function FoodsPage() {
                 fill
                 style={{ objectFit: 'cover' }}
                 priority
+                sizes="(max-width: 768px) 100vw, 448px"
               />
             </div>
             <p className="text-xl font-black text-gray-800">{ca.nameHebrew}</p>
@@ -171,7 +171,6 @@ export default function FoodsPage() {
 
           <div className="grid grid-cols-2 gap-3">
             {options.map(opt => {
-              const flagUrl = countries.find(c => c.id === opt.countryId)?.flagUrl;
               const isCorrectOpt = opt.countryId === ca.countryId;
               const isSelectedOpt = opt.countryId === selected;
               let bg = 'bg-white hover:bg-orange-50 border-2 border-white/60 hover:scale-105';
@@ -184,23 +183,21 @@ export default function FoodsPage() {
               }
               return (
                 <button
-                  key={opt.countryId + opt.id}
+                  key={opt.countryId}
                   onClick={() => !isAnswered && handleAnswer(opt.countryId)}
                   disabled={isAnswered}
                   className={`${bg} ${text} ${opacity} rounded-2xl p-3 font-bold text-center transition-all shadow-lg active:scale-95 overflow-hidden`}
                 >
-                  {flagUrl && (
-                    <div className="relative w-full h-16 rounded-xl overflow-hidden mb-2">
-                      <Image
-                        src={flagUrl}
-                        alt={opt.countryHebrew}
-                        fill
-                        style={{ objectFit: 'cover' }}
-                        sizes="(max-width: 768px) 45vw, 200px"
-                      />
-                    </div>
-                  )}
-                  <div className="text-sm leading-tight">{opt.countryHebrew}</div>
+                  <div className="relative w-full h-16 rounded-lg overflow-hidden mb-2">
+                    <Image
+                      src={`https://flagcdn.com/w160/${opt.countryId}.png`}
+                      alt={opt.countryHebrew}
+                      fill
+                      style={{ objectFit: 'cover' }}
+                      sizes="(max-width: 768px) 45vw, 200px"
+                    />
+                  </div>
+                  <div className="text-xs font-bold">{opt.countryHebrew}</div>
                 </button>
               );
             })}

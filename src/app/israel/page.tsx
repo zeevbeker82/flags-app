@@ -166,7 +166,8 @@ export default function IsraelPage() {
                 alt={ca.nameHebrew}
                 fill
                 style={{ objectFit: 'cover' }}
-                unoptimized
+                sizes="100vw"
+                priority
               />
             </div>
             <div className="p-5 text-center">
@@ -195,10 +196,18 @@ export default function IsraelPage() {
                   key={opt.id}
                   onClick={() => !isAnswered && handleAnswer(opt.id)}
                   disabled={isAnswered}
-                  className={`${bg} ${text} ${opacity} rounded-2xl p-4 font-bold text-center transition-all shadow-lg active:scale-95`}
+                  className={`${bg} ${text} ${opacity} rounded-2xl p-2 font-bold text-center transition-all shadow-lg active:scale-95 overflow-hidden`}
                 >
-                  <div className="text-2xl mb-1">{opt.emoji}</div>
-                  <div className="text-sm leading-tight">{opt.nameHebrew}</div>
+                  <div className="relative w-full h-20 rounded-xl overflow-hidden mb-2">
+                    <Image
+                      src={opt.photoUrl}
+                      alt={opt.nameHebrew}
+                      fill
+                      style={{ objectFit: 'cover' }}
+                      sizes="(max-width: 768px) 45vw, 200px"
+                    />
+                  </div>
+                  <div className="text-xs font-bold leading-tight">{opt.nameHebrew}</div>
                 </button>
               );
             })}
@@ -261,7 +270,7 @@ export default function IsraelPage() {
           </div>
 
           <div className="bg-blue-50 rounded-2xl p-3 text-sm text-blue-600 text-center">
-            💡 רואים תיאור ואמוג'י → מנחשים את שם המקום!
+            💡 רואים תמונה ותיאור → מנחשים את שם המקום!
           </div>
 
           <button
