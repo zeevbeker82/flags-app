@@ -198,19 +198,10 @@ export default function IsraelPage() {
                   key={opt.id}
                   onClick={() => !isAnswered && handleAnswer(opt.id)}
                   disabled={isAnswered}
-                  className={`${bg} ${text} ${opacity} rounded-2xl p-2 font-bold text-center transition-all shadow-lg active:scale-95 overflow-hidden`}
+                  className={`${bg} ${text} ${opacity} rounded-2xl p-4 font-bold text-center transition-all shadow-lg active:scale-95`}
                 >
-                  <div className="relative w-full h-20 rounded-xl overflow-hidden mb-2">
-                    <Image
-                      src={proxyUrl(opt.photoUrl)}
-                      alt={opt.nameHebrew}
-                      fill
-                      style={{ objectFit: 'cover' }}
-                      sizes="(max-width: 768px) 45vw, 200px"
-                      unoptimized
-                    />
-                  </div>
-                  <div className="text-xs font-bold leading-tight">{opt.nameHebrew}</div>
+                  <div className="text-2xl mb-1">{opt.emoji}</div>
+                  <div className="text-sm leading-tight">{opt.nameHebrew}</div>
                 </button>
               );
             })}
