@@ -122,6 +122,12 @@ export default function HomePage() {
             <h3 className="font-bold">אוכל מהעולם</h3>
             <p className="text-orange-100 text-xs mt-0.5">30 מאכלים ממדינות שונות</p>
           </Link>
+          <Link href="/hebrew"
+            className="bg-gradient-to-br from-violet-600 to-indigo-700 text-white rounded-2xl p-5 text-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 col-span-2">
+            <div className="text-3xl mb-1">📖</div>
+            <h3 className="font-bold">עברית לכיתה ב׳ — חדש!</h3>
+            <p className="text-violet-200 text-xs mt-0.5">דקדוק · חגים · אוצר מילים · אלף-בית · סיפורים</p>
+          </Link>
         </div>
       </div>
 
