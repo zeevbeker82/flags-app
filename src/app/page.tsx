@@ -123,10 +123,16 @@ export default function HomePage() {
             <p className="text-orange-100 text-xs mt-0.5">30 מאכלים ממדינות שונות</p>
           </Link>
           <Link href="/hebrew"
-            className="bg-gradient-to-br from-violet-600 to-indigo-700 text-white rounded-2xl p-5 text-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 col-span-2">
+            className="bg-gradient-to-br from-violet-600 to-indigo-700 text-white rounded-2xl p-5 text-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
             <div className="text-3xl mb-1">📖</div>
-            <h3 className="font-bold">עברית לכיתה ב׳ — חדש!</h3>
-            <p className="text-violet-200 text-xs mt-0.5">דקדוק · חגים · אוצר מילים · אלף-בית · סיפורים</p>
+            <h3 className="font-bold">עברית – קוויז</h3>
+            <p className="text-violet-200 text-xs mt-0.5">דקדוק · חגים · אוצר מילים</p>
+          </Link>
+          <Link href="/hebrew-practice"
+            className="bg-gradient-to-br from-fuchsia-600 to-purple-700 text-white rounded-2xl p-5 text-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+            <div className="text-3xl mb-1">🏫</div>
+            <h3 className="font-bold">תרגול עברית</h3>
+            <p className="text-fuchsia-200 text-xs mt-0.5">78 יחידות לימוד לכיתה ב׳</p>
           </Link>
         </div>
       </div>
