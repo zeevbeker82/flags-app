@@ -1,5 +1,5 @@
 'use client';
-import { useState, useCallback } from 'react';
+import { useState, useCallback, use } from 'react';
 import Link from 'next/link';
 import { allHebrewUnits } from '@/data/hebrewUnits';
 import { UNIT_CATEGORIES } from '@/data/hebrewUnitsTypes';
@@ -30,8 +30,9 @@ const DIFFICULTY_LABELS: Record<string, { emoji: string; label: string }> = {
 
 // ─── main component ─────────────────────────────────────────
 
-export default function UnitPage({ params }: { params: { id: string } }) {
-  const unit = allHebrewUnits.find(u => u.id === params.id);
+export default function UnitPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
+  const unit = allHebrewUnits.find(u => u.id === id);
 
   const [view, setView]               = useState<View>('intro');
   const [cardIndex, setCardIndex]     = useState(0);
